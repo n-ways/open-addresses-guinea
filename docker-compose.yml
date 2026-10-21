@@ -1,0 +1,19 @@
+# One command: docker compose up -d
+# Reads are open. To issue codes, this deployment must be the country's designated issuer
+# (server/README.md, "One issuer"): then set ISSUE_KEYS in a .env file next to this one.
+services:
+  addresses:
+    build: .
+    image: n-ways/addresses-guinea
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8080}:8080"
+    environment:
+      ISSUE_KEYS: "${ISSUE_KEYS:-}"
+      ISSUE_PER_DAY: "${ISSUE_PER_DAY:-5}"
+      CORS_ORIGINS: "${CORS_ORIGINS:-*}"
+    volumes:
+      - addresses-data:/data
+
+volumes:
+  addresses-data:

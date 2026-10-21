@@ -1,0 +1,15 @@
+.git
+.gitignore
+docs
+model
+tools
+doors
+server/tests
+server/testdata
+**/__pycache__
+**/*.pyc
+*.sqlite
+*.sqlite-*
+/data
+.env
+.env.*

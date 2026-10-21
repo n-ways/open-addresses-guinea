@@ -1,0 +1,29 @@
+N-Ways Addressing for Guinea, © N-WAYS LIMITED (nways.ng)
+https://github.com/n-ways/open-addresses-guinea
+
+This product includes software developed by N-WAYS LIMITED: Guinea's addressing
+engine, registry server and tools (engine/, server/, tools/), licensed under the
+Apache License, Version 2.0 (LICENSE).
+
+Any redistribution or derivative work of the code, in source or binary form,
+must keep this NOTICE and show the credit line
+
+    N-Ways Addressing for Guinea, © N-WAYS LIMITED (nways.ng)
+
+in its documentation, its "about", credits or licences screen, or wherever
+such third-party notices normally appear (Apache License 2.0, section 4(d)).
+
+The data (registry/, model/, engine/data/) is licensed separately under ODbL 1.0
+(LICENSE-DATA) and the documents (docs/) under CC BY 4.0 (LICENSE-DOCS). See
+LICENSING.md for how to credit each.
+
+The Hilbert-curve order follows D. Hilbert (1891); the check digit is H. M. Damm's
+algorithm (2004). The frame and quartier outlines are derived from OpenStreetMap
+(© OpenStreetMap contributors, ODbL); the spot-code check character works in
+the group Z5 x Z2 x Z2.
+
+The paper's typesetting (docs/paper/) includes third-party files under their own
+licences: ieee.csl, the IEEE citation style of the Citation Style Language
+project (CC BY-SA 3.0), and template.tex, adapted from pandoc's default LaTeX
+template (pandoc templates: GPL 2 or later, or BSD 3-clause, at the user's
+choice). The paper is set in the Libertinus fonts (SIL Open Font License 1.1).

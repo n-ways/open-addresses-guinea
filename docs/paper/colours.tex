@@ -1,0 +1,11 @@
+% Guinea: red, yellow and green, the national flag's bands in order.
+\definecolor{flagA}{HTML}{CE1126}
+\definecolor{flagB}{HTML}{FCD116}
+\definecolor{flagC}{HTML}{009460}
+\definecolor{paperink}{HTML}{0B5C35}
+\newcommand{\flagband}{\begin{tikzpicture}[remember picture,overlay]
+  \fill[flagA] (0,0) rectangle (\paperwidth,-2.2mm);
+  \fill[flagB] (0,-2.2mm) rectangle (\paperwidth,-4.4mm);
+  \fill[flagC] (0,-4.4mm) rectangle (\paperwidth,-6.6mm);
+\end{tikzpicture}}
+\newcommand{\papershort}{N-Ways Addressing for Guinea}

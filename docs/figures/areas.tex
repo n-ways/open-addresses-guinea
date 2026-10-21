@@ -1,0 +1,23 @@
+% How many compounds an area (place) holds: the 15,822 areas in use, from areas-hist.dat.
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold]
+\usepackage{pgfplots}\pgfplotsset{compat=1.18}
+\providecommand{\T}[2]{#1}% \T{English}{French}; the -fr wrappers select the French text
+\pgfkeys{/pgf/number format/.cd, 1000 sep={\,}}\ifdefined\figfr\pgfkeys{/pgf/number format/use comma}\fi
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[width=12cm, height=6.2cm, xmode=log, log basis x=10, xmin=1, xmax=15849, ymin=0, ymax=2450,
+  axis lines=left, axis line style={gray!60}, tick style={gray!60}, tick label style={font=\scriptsize, text=black!70},
+  xtick={1,10,100,1000,10000}, xticklabels={1,10,100,1\,000,10\,000},
+  ytick={0,500,1000,1500,2000}, yticklabels={0,500,1\,000,1\,500,2\,000},
+  ymajorgrids, grid style={gray!20},
+  xlabel={\T{compounds in the area (bins of a fifth of a decade)}{concessions du lieu (classes d'un cinquième de décade)}}, ylabel={\T{areas}{lieux}},
+  label style={font=\small}]
+\addplot[ybar interval, fill={rgb,255:red,42;green,120;blue,214}, draw=white, line width=0.8pt] table[x=lo, y=areas] {areas-hist.dat};
+\draw[black!70, dashed] (axis cs:81,0) -- (axis cs:81,2180) node[anchor=south west, font=\scriptsize, inner sep=1pt] {\T{median 81}{médiane 81}};
+\draw[black!70, dashed] (axis cs:509,0) -- (axis cs:509,1600) node[anchor=south west, font=\scriptsize, inner sep=1pt] {\T{90th percentile 509}{90\textsuperscript{e} centile 509}};
+\node[font=\scriptsize, anchor=south east, align=right] at (axis cs:13423,420) {\T{largest: Faranah\\13\,423 compounds}{le plus grand : Faranah\\13\,423 concessions}};
+\draw[black!70, ->, >=stealth] (axis cs:11500,400) -- (axis cs:12000,40);
+\end{axis}
+\end{tikzpicture}
+\end{document}

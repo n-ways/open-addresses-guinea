@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper as below."
+title: "N-Ways Addressing for Guinea"
+type: dataset
+authors:
+  - name: "The N-Ways Addressing Group"
+    affiliation: "N-WAYS LIMITED"
+    website: "https://nways.ng"
+    email: "hello@nways.ng"
+date-released: "2026-10-20"
+url: "https://github.com/n-ways/open-addresses-guinea"
+repository-code: "https://github.com/n-ways/open-addresses-guinea"
+license: "ODbL-1.0"
+keywords:
+  - addressing
+  - Guinea
+  - postcodes
+  - geocoding
+  - Hilbert curve
+  - check digit
+preferred-citation:
+  type: report
+  title: "A code for every concession: the N-Ways addressing model for Guinea"
+  authors:
+    - name: "The N-Ways Addressing Group"
+  institution:
+    name: "N-WAYS LIMITED"
+  year: 2026
+  month: 10
+  url: "https://github.com/n-ways/open-addresses-guinea/blob/main/docs/n-ways-addressing-guinea-en.pdf"
+  license: "CC-BY-4.0"
+  languages:
+    - en
+    - fr

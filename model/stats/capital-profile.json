@@ -1,0 +1,358 @@
+{
+ "buildings": [
+  {
+   "n": 363509,
+   "n_osm": 276037
+  }
+ ],
+ "classMix": [
+  {
+   "cls": "RES",
+   "n": 341923,
+   "pct": 94.06,
+   "avg_conf": 0.31
+  },
+  {
+   "cls": "ANX",
+   "n": 15795,
+   "pct": 4.35,
+   "avg_conf": 0.5
+  },
+  {
+   "cls": "CON",
+   "n": 1800,
+   "pct": 0.5,
+   "avg_conf": 0.9
+  },
+  {
+   "cls": "GOV",
+   "n": 1545,
+   "pct": 0.43,
+   "avg_conf": 0.7
+  },
+  {
+   "cls": "COM",
+   "n": 1118,
+   "pct": 0.31,
+   "avg_conf": 0.68
+  },
+  {
+   "cls": "HEA",
+   "n": 464,
+   "pct": 0.13,
+   "avg_conf": 0.71
+  },
+  {
+   "cls": "EDU",
+   "n": 399,
+   "pct": 0.11,
+   "avg_conf": 0.74
+  },
+  {
+   "cls": "REL",
+   "n": 248,
+   "pct": 0.07,
+   "avg_conf": 0.87
+  },
+  {
+   "cls": "TRA",
+   "n": 106,
+   "pct": 0.03,
+   "avg_conf": 0.78
+  },
+  {
+   "cls": "HOS",
+   "n": 59,
+   "pct": 0.02,
+   "avg_conf": 0.72
+  },
+  {
+   "cls": "IND",
+   "n": 45,
+   "pct": 0.01,
+   "avg_conf": 0.86
+  },
+  {
+   "cls": "RUI",
+   "n": 7,
+   "pct": 0.0,
+   "avg_conf": 0.9
+  }
+ ],
+ "resSub": [
+  {
+   "sub": "house",
+   "n": 218241,
+   "pct": 63.83
+  },
+  {
+   "sub": "small-house",
+   "n": 101987,
+   "pct": 29.83
+  },
+  {
+   "sub": "villa-or-large-house",
+   "n": 20824,
+   "pct": 6.09
+  },
+  {
+   "sub": "round-house",
+   "n": 837,
+   "pct": 0.24
+  },
+  {
+   "sub": "apartment-block",
+   "n": 34,
+   "pct": 0.01
+  }
+ ],
+ "classSource": [
+  {
+   "cls_src": "default",
+   "n": 335552,
+   "pct": 92.31
+  },
+  {
+   "cls_src": "shape",
+   "n": 16332,
+   "pct": 4.49
+  },
+  {
+   "cls_src": "osm:building",
+   "n": 8104,
+   "pct": 2.23
+  },
+  {
+   "cls_src": "n-ways:place",
+   "n": 1755,
+   "pct": 0.48
+  },
+  {
+   "cls_src": "n-ways:compound",
+   "n": 1471,
+   "pct": 0.4
+  },
+  {
+   "cls_src": "osm:tags",
+   "n": 295,
+   "pct": 0.08
+  }
+ ],
+ "size": [
+  {
+   "a_p10": 16.6,
+   "a_p25": 30.4,
+   "a_p50": 68.7,
+   "a_p75": 136.0,
+   "a_p90": 213.1,
+   "a_p99": 460.8,
+   "p_p50": 35.1,
+   "h_p50": 5.2,
+   "h_p90": 6.6,
+   "floor_area_km2": 38.84,
+   "footprint_km2": 36.61
+  }
+ ],
+ "areaBands": [
+  {
+   "band": "a <20",
+   "n": 51613,
+   "pct": 14.2
+  },
+  {
+   "band": "b 20-50",
+   "n": 92204,
+   "pct": 25.4
+  },
+  {
+   "band": "c 50-100",
+   "n": 86738,
+   "pct": 23.9
+  },
+  {
+   "band": "d 100-200",
+   "n": 90135,
+   "pct": 24.8
+  },
+  {
+   "band": "e 200-500",
+   "n": 39841,
+   "pct": 11.0
+  },
+  {
+   "band": "f 500-2000",
+   "n": 2794,
+   "pct": 0.8
+  },
+  {
+   "band": "g 2000+",
+   "n": 184,
+   "pct": 0.1
+  }
+ ],
+ "floors": [
+  {
+   "floors_cap6": 0,
+   "n": 26,
+   "pct": 0.0
+  },
+  {
+   "floors_cap6": 1,
+   "n": 324882,
+   "pct": 89.4
+  },
+  {
+   "floors_cap6": 2,
+   "n": 38518,
+   "pct": 10.6
+  },
+  {
+   "floors_cap6": 3,
+   "n": 28,
+   "pct": 0.0
+  },
+  {
+   "floors_cap6": 4,
+   "n": 19,
+   "pct": 0.0
+  },
+  {
+   "floors_cap6": 5,
+   "n": 19,
+   "pct": 0.0
+  },
+  {
+   "floors_cap6": 6,
+   "n": 17,
+   "pct": 0.0
+  }
+ ],
+ "heightSource": [
+  {
+   "h_src": "none",
+   "n": 275888,
+   "pct": 75.9
+  },
+  {
+   "h_src": "ml:h",
+   "n": 87472,
+   "pct": 24.1
+  },
+  {
+   "h_src": "osm:building:levels",
+   "n": 144,
+   "pct": 0.0
+  },
+  {
+   "h_src": "osm:height",
+   "n": 5,
+   "pct": 0.0
+  }
+ ],
+ "enclosures": [
+  {
+   "n": 244,
+   "plot_p50": 1742.0,
+   "plot_p90": 9893.0
+  }
+ ],
+ "grouping": [
+  {
+   "how": "annex-cluster",
+   "structures": 184680,
+   "compounds": 81222
+  },
+  {
+   "how": "enclosure",
+   "structures": 820,
+   "compounds": 120
+  },
+  {
+   "how": "single",
+   "structures": 178009,
+   "compounds": 178009
+  }
+ ],
+ "compounds": [
+  {
+   "compounds": 259351,
+   "structures": "363509",
+   "avg_structures": 1.4,
+   "k1": 182535,
+   "k2": 56794,
+   "k3_5": 19574,
+   "k6p": 448
+  }
+ ],
+ "enclosedStructures": [
+  {
+   "compounds": 120,
+   "avg_structures": 6.83,
+   "max_structures": 43,
+   "k1": 21,
+   "k2": 12,
+   "k3_5": 30,
+   "k6p": 57
+  }
+ ],
+ "enclosureGates": [
+  {
+   "enclosures_with_gate": 8
+  }
+ ],
+ "compoundUse": [
+  {
+   "use_class": "one household (presumed)",
+   "n": 238617,
+   "pct": 92.0
+  },
+  {
+   "use_class": "outbuildings only",
+   "n": 15252,
+   "pct": 5.9
+  },
+  {
+   "use_class": "institutional",
+   "n": 4277,
+   "pct": 1.6
+  },
+  {
+   "use_class": "commercial",
+   "n": 1118,
+   "pct": 0.4
+  },
+  {
+   "use_class": "mixed",
+   "n": 47,
+   "pct": 0.0
+  },
+  {
+   "use_class": "multi-household (presumed)",
+   "n": 40,
+   "pct": 0.0
+  }
+ ],
+ "pois": [
+  {
+   "n": 2042
+  }
+ ],
+ "nwCompounds": [
+  {
+   "kind": "government",
+   "n": 35
+  },
+  {
+   "kind": "military",
+   "n": 12
+  },
+  {
+   "kind": "police",
+   "n": 14
+  },
+  {
+   "kind": "site",
+   "n": 495
+  }
+ ]
+}

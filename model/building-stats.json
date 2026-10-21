@@ -1,0 +1,793 @@
+{
+ "computed": "2026-10-21",
+ "note": "From the codes issued on 20 October 2026 (tools/issue_registry.py) and N-Ways map data.",
+ "rules": {
+  "ruralBelowBuildingsPerHa": 4.0,
+  "annexBelowM2": 40,
+  "roundBelowM2": 60,
+  "circularityAbove": 0.88,
+  "concessionGapM": 10.0,
+  "concessionSpanM": 60.0,
+  "annexGapM": 8.0,
+  "maxStructures": 12,
+  "plotMaxStructures": 25,
+  "siteMaxStructures": 30,
+  "siteMaxM2": 60000
+ },
+ "country": {
+  "compounds": 3808784,
+  "structures": 5218074,
+  "fromOpenStreetMap": 1873398,
+  "structuresPerCompound": 1.37,
+  "shareStructuresInMultiStructureCompounds": 0.444,
+  "compoundSizeMix": {
+   "1": 2898820,
+   "2": 616433,
+   "3": 185665,
+   "4": 61474,
+   "5": 24234,
+   "6": 10495,
+   "7+": 11663
+  },
+  "rules": {
+   "single": 2885790,
+   "annex": 722822,
+   "concession": 174513,
+   "enclosure": 13029,
+   "proximity": 10142,
+   "site": 2488
+  },
+  "settlement": {
+   "town": 2999644,
+   "rural": 809140
+  },
+  "familyConcessions": 24050,
+  "useTop": {
+   "residential": 5184426,
+   "status": 10021,
+   "industrial": 6172,
+   "commercial": 6086,
+   "education": 4324,
+   "health": 1991,
+   "government": 1915,
+   "religious": 1220,
+   "hospitality": 1197,
+   "transport": 450,
+   "agricultural": 197,
+   "public": 75
+  },
+  "useDetail": {
+   "residential.house": 4445130,
+   "residential.round-house": 596703,
+   "residential.annex": 142306,
+   "status.construction": 9970,
+   "industrial": 6172,
+   "education": 4324,
+   "commercial.shop": 2999,
+   "health": 1991,
+   "government.military": 1524,
+   "commercial.office": 1375,
+   "religious": 1220,
+   "hospitality": 1197,
+   "commercial.market": 977,
+   "commercial.warehouse": 576,
+   "transport": 450,
+   "government": 391,
+   "residential.apartments": 287,
+   "agricultural.store": 197,
+   "commercial.workshop": 159,
+   "public.landmark": 74
+  },
+  "roundHouses": 596703,
+  "roundHouseShare": 0.114,
+  "floorsFrom": {
+   "none": 5217740,
+   "osm:building:levels": 328,
+   "osm:height": 6
+  },
+  "floors": {
+   "1": 141,
+   "2": 76,
+   "3": 48,
+   "4": 69
+  },
+  "compoundsByDigits": {
+   "4": 3048246,
+   "5": 760538
+  },
+  "kaloumStreet": 3085,
+  "footprintAreaM2": {
+   "p10": 14.7,
+   "p25": 22.4,
+   "p50": 44.2,
+   "p75": 100.1,
+   "p90": 170.6
+  }
+ },
+ "frames": {
+  "Basse-Guinée": {
+   "compounds": 1003774,
+   "structures": 1317552,
+   "fromOpenStreetMap": 427192,
+   "structuresPerCompound": 1.313,
+   "shareStructuresInMultiStructureCompounds": 0.406,
+   "compoundSizeMix": {
+    "1": 783209,
+    "2": 159181,
+    "3": 42919,
+    "4": 11703,
+    "5": 3870,
+    "6": 1436,
+    "7+": 1456
+   },
+   "rules": {
+    "single": 778327,
+    "annex": 161370,
+    "concession": 55320,
+    "enclosure": 4458,
+    "proximity": 3632,
+    "site": 667
+   },
+   "settlement": {
+    "rural": 277616,
+    "town": 726158
+   },
+   "familyConcessions": 1392,
+   "useTop": {
+    "residential": 1306683,
+    "status": 4269,
+    "industrial": 2172,
+    "commercial": 1543,
+    "education": 905,
+    "government": 881,
+    "religious": 359,
+    "health": 358,
+    "hospitality": 174,
+    "transport": 152,
+    "agricultural": 49,
+    "public": 7
+   },
+   "useDetail": {
+    "residential.house": 1215632,
+    "residential.round-house": 61937,
+    "residential.annex": 29074,
+    "status.construction": 4263,
+    "industrial": 2172,
+    "education": 905,
+    "government.military": 821,
+    "commercial.shop": 743,
+    "religious": 359,
+    "health": 358,
+    "commercial.warehouse": 313,
+    "commercial.office": 257,
+    "commercial.market": 217,
+    "hospitality": 174,
+    "transport": 152,
+    "government": 60,
+    "agricultural.store": 49,
+    "residential.apartments": 40,
+    "commercial.workshop": 13,
+    "public.landmark": 7
+   },
+   "roundHouses": 61937,
+   "roundHouseShare": 0.047,
+   "floorsFrom": {
+    "none": 1317467,
+    "osm:building:levels": 84,
+    "osm:height": 1
+   },
+   "floors": {
+    "1": 39,
+    "2": 17,
+    "3": 20,
+    "4": 9
+   },
+   "compoundsByDigits": {
+    "4": 716322,
+    "5": 287452
+   },
+   "kaloumStreet": 0,
+   "footprintAreaM2": {
+    "p10": 15.4,
+    "p25": 23.4,
+    "p50": 50.7,
+    "p75": 113.7,
+    "p90": 176.9
+   }
+  },
+  "Conakry": {
+   "compounds": 258080,
+   "structures": 363193,
+   "fromOpenStreetMap": 276066,
+   "structuresPerCompound": 1.407,
+   "shareStructuresInMultiStructureCompounds": 0.492,
+   "compoundSizeMix": {
+    "1": 184498,
+    "2": 53151,
+    "3": 14267,
+    "4": 3987,
+    "5": 1210,
+    "6": 450,
+    "7+": 517
+   },
+   "rules": {
+    "single": 181249,
+    "annex": 72395,
+    "proximity": 3517,
+    "site": 524,
+    "concession": 259,
+    "enclosure": 136
+   },
+   "settlement": {
+    "town": 256176,
+    "rural": 1904
+   },
+   "familyConcessions": 3,
+   "useTop": {
+    "residential": 353114,
+    "commercial": 2368,
+    "industrial": 1939,
+    "status": 1807,
+    "education": 1278,
+    "health": 955,
+    "government": 771,
+    "hospitality": 485,
+    "religious": 282,
+    "transport": 137,
+    "public": 54,
+    "agricultural": 3
+   },
+   "useDetail": {
+    "residential.house": 334728,
+    "residential.annex": 14604,
+    "residential.round-house": 3722,
+    "industrial": 1939,
+    "status.construction": 1800,
+    "education": 1278,
+    "commercial.shop": 1133,
+    "health": 955,
+    "commercial.office": 907,
+    "government.military": 527,
+    "hospitality": 485,
+    "religious": 282,
+    "government": 244,
+    "commercial.warehouse": 163,
+    "commercial.market": 141,
+    "transport": 137,
+    "residential.apartments": 60,
+    "public.landmark": 53,
+    "commercial.workshop": 24,
+    "status.ruin": 7
+   },
+   "roundHouses": 3722,
+   "roundHouseShare": 0.01,
+   "floorsFrom": {
+    "none": 363046,
+    "osm:building:levels": 146,
+    "osm:height": 1
+   },
+   "floors": {
+    "1": 36,
+    "2": 30,
+    "3": 26,
+    "4": 55
+   },
+   "compoundsByDigits": {
+    "4": 124007,
+    "5": 134073
+   },
+   "kaloumStreet": 3085,
+   "footprintAreaM2": {
+    "p10": 16.6,
+    "p25": 30.5,
+    "p50": 68.8,
+    "p75": 136.1,
+    "p90": 213.2
+   }
+  },
+  "Guinée forestière": {
+   "compounds": 540311,
+   "structures": 751532,
+   "fromOpenStreetMap": 287417,
+   "structuresPerCompound": 1.391,
+   "shareStructuresInMultiStructureCompounds": 0.464,
+   "compoundSizeMix": {
+    "1": 402560,
+    "2": 93292,
+    "3": 28543,
+    "4": 9487,
+    "5": 3614,
+    "6": 1405,
+    "7+": 1410
+   },
+   "rules": {
+    "single": 400741,
+    "annex": 124732,
+    "concession": 11132,
+    "enclosure": 2320,
+    "proximity": 766,
+    "site": 620
+   },
+   "settlement": {
+    "town": 462955,
+    "rural": 77356
+   },
+   "familyConcessions": 1064,
+   "useTop": {
+    "residential": 746878,
+    "education": 1247,
+    "commercial": 1047,
+    "industrial": 917,
+    "status": 569,
+    "hospitality": 411,
+    "health": 242,
+    "government": 78,
+    "religious": 77,
+    "transport": 44,
+    "agricultural": 22
+   },
+   "useDetail": {
+    "residential.house": 689999,
+    "residential.round-house": 32187,
+    "residential.annex": 24677,
+    "education": 1247,
+    "industrial": 917,
+    "commercial.shop": 654,
+    "status.construction": 540,
+    "hospitality": 411,
+    "health": 242,
+    "commercial.market": 210,
+    "commercial.workshop": 97,
+    "religious": 77,
+    "commercial.office": 56,
+    "transport": 44,
+    "government.military": 41,
+    "government": 37,
+    "commercial.warehouse": 30,
+    "status.ruin": 29,
+    "agricultural.store": 22,
+    "residential.apartments": 15
+   },
+   "roundHouses": 32187,
+   "roundHouseShare": 0.043,
+   "floorsFrom": {
+    "none": 751521,
+    "osm:building:levels": 11
+   },
+   "floors": {
+    "1": 5,
+    "2": 2,
+    "4": 4
+   },
+   "compoundsByDigits": {
+    "4": 488791,
+    "5": 51520
+   },
+   "kaloumStreet": 0,
+   "footprintAreaM2": {
+    "p10": 14.0,
+    "p25": 21.0,
+    "p50": 40.6,
+    "p75": 73.0,
+    "p90": 116.8
+   }
+  },
+  "Haute-Guinée": {
+   "compounds": 1195252,
+   "structures": 1690541,
+   "fromOpenStreetMap": 592673,
+   "structuresPerCompound": 1.414,
+   "shareStructuresInMultiStructureCompounds": 0.458,
+   "compoundSizeMix": {
+    "1": 916892,
+    "2": 167955,
+    "3": 59986,
+    "4": 25253,
+    "5": 11989,
+    "6": 5920,
+    "7+": 7257
+   },
+   "rules": {
+    "single": 914924,
+    "annex": 241743,
+    "concession": 32858,
+    "enclosure": 3803,
+    "proximity": 1573,
+    "site": 351
+   },
+   "settlement": {
+    "rural": 142979,
+    "town": 1052273
+   },
+   "familyConcessions": 19155,
+   "useTop": {
+    "residential": 1686172,
+    "status": 1378,
+    "industrial": 1052,
+    "commercial": 591,
+    "education": 528,
+    "health": 262,
+    "religious": 223,
+    "agricultural": 117,
+    "government": 100,
+    "hospitality": 62,
+    "transport": 54,
+    "public": 2
+   },
+   "useDetail": {
+    "residential.house": 1246989,
+    "residential.round-house": 395454,
+    "residential.annex": 43722,
+    "status.construction": 1377,
+    "industrial": 1052,
+    "education": 528,
+    "commercial.shop": 300,
+    "health": 262,
+    "religious": 223,
+    "commercial.market": 170,
+    "agricultural.store": 117,
+    "government.military": 83,
+    "commercial.office": 65,
+    "hospitality": 62,
+    "transport": 54,
+    "commercial.warehouse": 45,
+    "government": 17,
+    "commercial.workshop": 11,
+    "residential.apartments": 7,
+    "public.landmark": 2
+   },
+   "roundHouses": 395454,
+   "roundHouseShare": 0.234,
+   "floorsFrom": {
+    "none": 1690483,
+    "osm:building:levels": 55,
+    "osm:height": 3
+   },
+   "floors": {
+    "1": 34,
+    "2": 24
+   },
+   "compoundsByDigits": {
+    "4": 1000918,
+    "5": 194334
+   },
+   "kaloumStreet": 0,
+   "footprintAreaM2": {
+    "p10": 13.1,
+    "p25": 17.3,
+    "p50": 25.0,
+    "p75": 40.0,
+    "p90": 80.8
+   }
+  },
+  "Moyenne-Guinée": {
+   "compounds": 811367,
+   "structures": 1095256,
+   "fromOpenStreetMap": 290050,
+   "structuresPerCompound": 1.35,
+   "shareStructuresInMultiStructureCompounds": 0.442,
+   "compoundSizeMix": {
+    "1": 611661,
+    "2": 142854,
+    "3": 39950,
+    "4": 11044,
+    "5": 3551,
+    "6": 1284,
+    "7+": 1023
+   },
+   "rules": {
+    "single": 610549,
+    "annex": 122582,
+    "concession": 74944,
+    "enclosure": 2312,
+    "proximity": 654,
+    "site": 326
+   },
+   "settlement": {
+    "rural": 309285,
+    "town": 502082
+   },
+   "familyConcessions": 2436,
+   "useTop": {
+    "residential": 1091579,
+    "status": 1998,
+    "commercial": 537,
+    "education": 366,
+    "religious": 279,
+    "health": 174,
+    "industrial": 92,
+    "government": 85,
+    "hospitality": 65,
+    "transport": 63,
+    "public": 12,
+    "agricultural": 6
+   },
+   "useDetail": {
+    "residential.house": 957782,
+    "residential.round-house": 103403,
+    "residential.annex": 30229,
+    "status.construction": 1990,
+    "education": 366,
+    "religious": 279,
+    "commercial.market": 239,
+    "health": 174,
+    "commercial.shop": 169,
+    "residential.apartments": 165,
+    "industrial": 92,
+    "commercial.office": 90,
+    "hospitality": 65,
+    "transport": 63,
+    "government.military": 52,
+    "government": 33,
+    "commercial.warehouse": 25,
+    "commercial.workshop": 14,
+    "public.landmark": 12,
+    "status.ruin": 8
+   },
+   "roundHouses": 103403,
+   "roundHouseShare": 0.094,
+   "floorsFrom": {
+    "none": 1095223,
+    "osm:building:levels": 32,
+    "osm:height": 1
+   },
+   "floors": {
+    "1": 27,
+    "2": 3,
+    "3": 2,
+    "4": 1
+   },
+   "compoundsByDigits": {
+    "4": 718208,
+    "5": 93159
+   },
+   "kaloumStreet": 0,
+   "footprintAreaM2": {
+    "p10": 14.6,
+    "p25": 21.4,
+    "p50": 34.6,
+    "p75": 68.0,
+    "p90": 120.1
+   }
+  }
+ },
+ "labels": {
+  "Siguiri": {
+   "compounds": 266703,
+   "structures": 384766,
+   "roundHouseShare": 0.125
+  },
+  "Conakry": {
+   "compounds": 222039,
+   "structures": 310876,
+   "roundHouseShare": 0.01
+  },
+  "Dubréka": {
+   "compounds": 201530,
+   "structures": 263350,
+   "roundHouseShare": 0.015
+  },
+  "Kankan": {
+   "compounds": 177186,
+   "structures": 243939,
+   "roundHouseShare": 0.123
+  },
+  "Labé": {
+   "compounds": 163423,
+   "structures": 227774,
+   "roundHouseShare": 0.038
+  },
+  "Mandiana": {
+   "compounds": 147903,
+   "structures": 230474,
+   "roundHouseShare": 0.375
+  },
+  "Pita": {
+   "compounds": 144841,
+   "structures": 189929,
+   "roundHouseShare": 0.129
+  },
+  "Kindia": {
+   "compounds": 144181,
+   "structures": 192916,
+   "roundHouseShare": 0.041
+  },
+  "Coyah": {
+   "compounds": 140160,
+   "structures": 177678,
+   "roundHouseShare": 0.001
+  },
+  "Mamou": {
+   "compounds": 138773,
+   "structures": 200930,
+   "roundHouseShare": 0.087
+  },
+  "Boké": {
+   "compounds": 134822,
+   "structures": 176847,
+   "roundHouseShare": 0.071
+  },
+  "Nzérékoré": {
+   "compounds": 131748,
+   "structures": 179398,
+   "roundHouseShare": 0.01
+  },
+  "Dinguiraye": {
+   "compounds": 131037,
+   "structures": 172750,
+   "roundHouseShare": 0.348
+  },
+  "Beyla": {
+   "compounds": 119575,
+   "structures": 173712,
+   "roundHouseShare": 0.082
+  },
+  "Kouroussa": {
+   "compounds": 116922,
+   "structures": 157502,
+   "roundHouseShare": 0.181
+  },
+  "Kissidougou": {
+   "compounds": 112494,
+   "structures": 160390,
+   "roundHouseShare": 0.195
+  },
+  "Télimélé": {
+   "compounds": 111113,
+   "structures": 150108,
+   "roundHouseShare": 0.112
+  },
+  "Faranah": {
+   "compounds": 108787,
+   "structures": 160023,
+   "roundHouseShare": 0.547
+  },
+  "Mali": {
+   "compounds": 99874,
+   "structures": 130320,
+   "roundHouseShare": 0.018
+  },
+  "Guéckédou": {
+   "compounds": 97798,
+   "structures": 140403,
+   "roundHouseShare": 0.066
+  },
+  "Dalaba": {
+   "compounds": 85269,
+   "structures": 115279,
+   "roundHouseShare": 0.143
+  },
+  "Dabola": {
+   "compounds": 81612,
+   "structures": 108359,
+   "roundHouseShare": 0.131
+  },
+  "Macenta": {
+   "compounds": 75771,
+   "structures": 101303,
+   "roundHouseShare": 0.028
+  },
+  "Lelouma": {
+   "compounds": 74305,
+   "structures": 98609,
+   "roundHouseShare": 0.14
+  },
+  "Forécariah": {
+   "compounds": 69003,
+   "structures": 90477,
+   "roundHouseShare": 0.023
+  },
+  "Lola": {
+   "compounds": 68726,
+   "structures": 94016,
+   "roundHouseShare": 0.026
+  },
+  "Tougué": {
+   "compounds": 63919,
+   "structures": 79206,
+   "roundHouseShare": 0.14
+  },
+  "Gaoual": {
+   "compounds": 60946,
+   "structures": 78918,
+   "roundHouseShare": 0.12
+  },
+  "Boffa": {
+   "compounds": 60902,
+   "structures": 79493,
+   "roundHouseShare": 0.108
+  },
+  "Koundara": {
+   "compounds": 57316,
+   "structures": 75645,
+   "roundHouseShare": 0.004
+  },
+  "Kérouané": {
+   "compounds": 49588,
+   "structures": 67873,
+   "roundHouseShare": 0.118
+  },
+  "Yomou": {
+   "compounds": 44983,
+   "structures": 60337,
+   "roundHouseShare": 0.024
+  },
+  "Koubia": {
+   "compounds": 40424,
+   "structures": 52379,
+   "roundHouseShare": 0.17
+  },
+  "Fria": {
+   "compounds": 22669,
+   "structures": 30633,
+   "roundHouseShare": 0.011
+  },
+  "Dixinn": {
+   "compounds": 16490,
+   "structures": 25068,
+   "roundHouseShare": 0.016
+  },
+  "Matam": {
+   "compounds": 13905,
+   "structures": 20048,
+   "roundHouseShare": 0.003
+  },
+  "(none)": {
+   "compounds": 6298,
+   "structures": 8943,
+   "roundHouseShare": 0.168
+  },
+  "Kaloum": {
+   "compounds": 5646,
+   "structures": 7201,
+   "roundHouseShare": 0.001
+  },
+  "Quardu-Gboni": {
+   "compounds": 103,
+   "structures": 202,
+   "roundHouseShare": 0.0
+  }
+ },
+ "validation": {
+  "mappedEnclosures": 738,
+  "byKind": {
+   "osm-wall": 416,
+   "osm-farmyard": 49,
+   "osm-fence": 268,
+   "osm-hedge": 5
+  },
+  "whole": 91,
+  "exact": 73,
+  "missingOne": 214,
+  "shareWhole": 0.123,
+  "shareExact": 0.099,
+  "shareMissingOne": 0.29
+ },
+ "access": {
+  "health": {
+   "facilities": 1833,
+   "within2km": 0.458,
+   "within5km": 0.693,
+   "medianKm": 2.4
+  },
+  "school": {
+   "facilities": 2002,
+   "within2km": 0.383,
+   "within5km": 0.533,
+   "medianKm": 4.2
+  },
+  "police": {
+   "facilities": 111,
+   "within2km": 0.134,
+   "within5km": 0.231,
+   "medianKm": 25.7
+  },
+  "pharmacy": {
+   "facilities": 558,
+   "within2km": 0.198,
+   "within5km": 0.269,
+   "medianKm": 26.6
+  }
+ },
+ "accessSample": 20000
+}

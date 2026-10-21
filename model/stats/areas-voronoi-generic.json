@@ -1,0 +1,189 @@
+{
+ "localities": [
+  {
+   "src": "geonames",
+   "n": 4574
+  },
+  {
+   "src": "osm",
+   "n": 11792
+  }
+ ],
+ "perArea": [
+  {
+   "areas_with_buildings": 15879,
+   "p50": 114.0,
+   "p90": 668.0,
+   "p99": 3878.0,
+   "max_n": 47092,
+   "le_450": 13394,
+   "le_4500": 2356,
+   "le_45000": 128,
+   "gt_45000": 1,
+   "buildings_in_areas_over_4500": "1154800",
+   "total": "5318853"
+  }
+ ],
+ "capitalTop": [
+  {
+   "name": "Kissosso",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 15060
+  },
+  {
+   "name": "Wanindara",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 14567
+  },
+  {
+   "name": "Sonfonia Gare",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 13264
+  },
+  {
+   "name": "Cocoma",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 11715
+  },
+  {
+   "name": "Yattaya",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 11563
+  },
+  {
+   "name": "Dar Es Salam",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 10231
+  },
+  {
+   "name": "Koloma",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 8675
+  },
+  {
+   "name": "Château",
+   "kind": "quarter",
+   "src": "osm",
+   "n": 7964
+  },
+  {
+   "name": "Tannérie",
+   "kind": "quarter",
+   "src": "osm",
+   "n": 7775
+  },
+  {
+   "name": "Wassawassa",
+   "kind": "PPL",
+   "src": "geonames",
+   "n": 7406
+  },
+  {
+   "name": "Cité de Francony",
+   "kind": "PPL",
+   "src": "geonames",
+   "n": 7360
+  },
+  {
+   "name": "Bassia",
+   "kind": "PPL",
+   "src": "geonames",
+   "n": 7353
+  },
+  {
+   "name": "Hafiya",
+   "kind": "PPL",
+   "src": "geonames",
+   "n": 6861
+  },
+  {
+   "name": "Foulamadina",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 6844
+  },
+  {
+   "name": "Tombolïa",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 6686
+  },
+  {
+   "name": "Hafia",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 6425
+  },
+  {
+   "name": "Kobaya",
+   "kind": "PPL",
+   "src": "geonames",
+   "n": 6385
+  },
+  {
+   "name": "Soumabossia",
+   "kind": "PPL",
+   "src": "geonames",
+   "n": 6326
+  },
+  {
+   "name": "Lambanyi",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 6013
+  },
+  {
+   "name": "Aviation",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 5881
+  },
+  {
+   "name": "Kipé",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 5825
+  },
+  {
+   "name": "Fofanayah",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 5761
+  },
+  {
+   "name": "Sangoya",
+   "kind": "PPL",
+   "src": "geonames",
+   "n": 5730
+  },
+  {
+   "name": "Lansanaya Village/ Lansanmaya",
+   "kind": "quarter",
+   "src": "osm",
+   "n": 5701
+  },
+  {
+   "name": "Démoudoula",
+   "kind": "suburb",
+   "src": "osm",
+   "n": 5651
+  }
+ ],
+ "capitalAreas": [
+  {
+   "areas": 109,
+   "p50": 2511.0,
+   "p90": 7354.0,
+   "max_n": 15060,
+   "over_4500": 31,
+   "over_45000": 0
+  }
+ ]
+}

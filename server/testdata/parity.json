@@ -1,0 +1,2304 @@
+{
+ "about": "Issuing parity: each case is a request to POST /v1/codes, applied in order to the test registry; expected is what the N-Ways issuer (internal/addressing/gn: PlaceFor, Insert, AddressForms, PlusCode, Spot) returns for the same sequence.",
+ "cases": [
+  {
+   "why": "kaloum",
+   "lat": 9.5177473,
+   "lng": -13.7096843,
+   "expected": {
+    "zone": "0-00214",
+    "number": 1000,
+    "machine": "GN-08954-1000-0",
+    "home": "Petit Bateau 1000",
+    "plate": "PETIT BATEAU · 1000",
+    "spoken": "Petit Bateau, dix zéro zéro",
+    "plus_code": "6CX8G79R+34W",
+    "spot": "0 22CJ 3RQP"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5259982,
+   "lng": -13.7216538,
+   "expected": {
+    "zone": "0-00208",
+    "number": 2849,
+    "machine": "GN-00053-2849-8",
+    "home": "Almamiya 2849",
+    "plate": "ALMAMIYA · 2849",
+    "spoken": "Almamiya, vingt-huit quarante-neuf",
+    "plus_code": "6CX8G7GH+98X",
+    "spot": "0 22CH RPXR"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5132916,
+   "lng": -13.7119479,
+   "expected": {
+    "zone": "0-00208",
+    "number": 1708,
+    "machine": "GN-00053-1708-8",
+    "home": "Almamiya 1708",
+    "plate": "ALMAMIYA · 1708",
+    "spoken": "Almamiya, dix-sept zéro huit",
+    "plus_code": "6CX8G77Q+867",
+    "spot": "0 229J MJGH"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5203639,
+   "lng": -13.7065806,
+   "expected": {
+    "zone": "0-00214",
+    "number": 1002,
+    "machine": "GN-08954-1002-1",
+    "home": "Petit Bateau 1002",
+    "plate": "PETIT BATEAU · 1002",
+    "spoken": "Petit Bateau, dix zéro deux",
+    "plus_code": "6CX8G7CV+49V",
+    "spot": "0 22CM 84H9"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5139532,
+   "lng": -13.6929307,
+   "expected": {
+    "zone": "0-00217",
+    "number": 1025,
+    "machine": "GN-07100-1025-7",
+    "home": "Lieux 1025",
+    "plate": "LIEUX · 1025",
+    "spoken": "Lieux, dix vingt-cinq",
+    "plus_code": "6CX8G874+HRP",
+    "spot": "0 229P P9Q9",
+    "new_blocks": [
+     [
+      1000,
+      1049
+     ]
+    ]
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5034897,
+   "lng": -13.7001991,
+   "expected": {
+    "zone": "0-00209",
+    "number": 1951,
+    "machine": "GN-07594-1951-4",
+    "home": "Manquepas 1951",
+    "plate": "MANQUEPAS · 1951",
+    "spoken": "Manquepas, dix-neuf cinquante et un",
+    "plus_code": "6CX8G73X+9WV",
+    "spot": "0 228M QPF3"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5188383,
+   "lng": -13.720019,
+   "expected": {
+    "zone": "0-00208",
+    "number": 2472,
+    "machine": "GN-00053-2472-8",
+    "home": "Almamiya 2472",
+    "plate": "ALMAMIYA · 2472",
+    "spoken": "Almamiya, vingt-quatre soixante-douze",
+    "plus_code": "6CX8G79H+GXQ",
+    "spot": "0 22CH 5VQR"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5154666,
+   "lng": -13.719104,
+   "expected": {
+    "zone": "0-00207",
+    "number": 1402,
+    "machine": "GN-09011-1402-0",
+    "home": "Port 1402",
+    "plate": "PORT · 1402",
+    "spoken": "Port, quatorze zéro deux",
+    "plus_code": "6CX8G78J+59J",
+    "spot": "0 229H VXHF"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5113191,
+   "lng": -13.6948642,
+   "expected": {
+    "zone": "0-00214",
+    "number": 1049,
+    "machine": "GN-08954-1049-1",
+    "home": "Petit Bateau 1049",
+    "plate": "PETIT BATEAU · 1049",
+    "spoken": "Petit Bateau, dix quarante-neuf",
+    "plus_code": "6CX8G864+G3C",
+    "spot": "0 229P F5WR"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5099962,
+   "lng": -13.71628,
+   "expected": {
+    "zone": "0-00206",
+    "number": 1611,
+    "machine": "GN-01403-1611-5",
+    "home": "Boulbinet 1611",
+    "plate": "BOULBINET · 1611",
+    "spoken": "Boulbinet, seize onze",
+    "plus_code": "6CX8G75M+XFX",
+    "spot": "0 229J 96FJ"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5071195,
+   "lng": -13.6908316,
+   "expected": {
+    "zone": "0-00214",
+    "number": 1003,
+    "machine": "GN-08954-1003-7",
+    "home": "Petit Bateau 1003",
+    "plate": "PETIT BATEAU · 1003",
+    "spoken": "Petit Bateau, dix zéro trois",
+    "plus_code": "6CX8G845+RMV",
+    "spot": "0 229P 4H56"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5206058,
+   "lng": -13.7183435,
+   "expected": {
+    "zone": "0-00208",
+    "number": 1000,
+    "machine": "GN-00053-1000-0",
+    "home": "Almamiya 1000",
+    "plate": "ALMAMIYA · 1000",
+    "spoken": "Almamiya, dix zéro zéro",
+    "plus_code": "6CX8G7CJ+6MV",
+    "spot": "0 22CJ 922V"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5043523,
+   "lng": -13.6929518,
+   "expected": {
+    "zone": "0-00209",
+    "number": 1950,
+    "machine": "GN-07594-1950-9",
+    "home": "Manquepas 1950",
+    "plate": "MANQUEPAS · 1950",
+    "spoken": "Manquepas, dix-neuf cinquante",
+    "plus_code": "6CX8G834+PRV",
+    "spot": "0 228P V938"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5075943,
+   "lng": -13.6981307,
+   "expected": {
+    "zone": "0-00209",
+    "number": 1952,
+    "machine": "GN-07594-1952-3",
+    "home": "Manquepas 1952",
+    "plate": "MANQUEPAS · 1952",
+    "spoken": "Manquepas, dix-neuf cinquante-deux",
+    "plus_code": "6CX8G852+2PQ",
+    "spot": "0 229M 5V2V"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.503345,
+   "lng": -13.7031867,
+   "expected": {
+    "zone": "0-00209",
+    "number": 1954,
+    "machine": "GN-07594-1954-6",
+    "home": "Manquepas 1954",
+    "plate": "MANQUEPAS · 1954",
+    "spoken": "Manquepas, dix-neuf cinquante-quatre",
+    "plus_code": "6CX8G73W+8PP",
+    "spot": "0 228M QC6J"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5128849,
+   "lng": -13.705083,
+   "expected": {
+    "zone": "0-00216",
+    "number": 2276,
+    "machine": "GN-01653-2276-9",
+    "home": "Coronthie 1 · 2276",
+    "plate": "CORONTHIE 1 · 2276",
+    "spoken": "Coronthie 1, vingt-deux soixante-seize",
+    "plus_code": "6CX8G77V+5X3",
+    "spot": "0 229M J7Q4"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5071135,
+   "lng": -13.7123015,
+   "expected": {
+    "zone": "0-00205",
+    "number": 1479,
+    "machine": "GN-07594-1479-5",
+    "home": "Manquepas 1479",
+    "plate": "MANQUEPAS · 1479",
+    "spoken": "Manquepas, quatorze soixante-dix-neuf",
+    "plus_code": "6CX8G74Q+R3W",
+    "spot": "0 229J 4H5W"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5154473,
+   "lng": -13.694606,
+   "expected": {
+    "zone": "0-00217",
+    "number": 1012,
+    "machine": "GN-07100-1012-9",
+    "home": "Lieux 1012",
+    "plate": "LIEUX · 1012",
+    "spoken": "Lieux, dix douze",
+    "plus_code": "6CX8G884+55C",
+    "spot": "0 229P V6G8"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.505722,
+   "lng": -13.7151054,
+   "expected": {
+    "zone": "0-00206",
+    "number": 2013,
+    "machine": "GN-01403-2013-9",
+    "home": "Boulbinet 2013",
+    "plate": "BOULBINET · 2013",
+    "spoken": "Boulbinet, vingt treize",
+    "plus_code": "6CX8G74M+7XJ",
+    "spot": "0 228J X8HQ"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5137042,
+   "lng": -13.7189561,
+   "expected": {
+    "zone": "0-00207",
+    "number": 1434,
+    "machine": "GN-09011-1434-1",
+    "home": "Port 1434",
+    "plate": "PORT · 1434",
+    "spoken": "Port, quatorze trente-quatre",
+    "plus_code": "6CX8G77J+FCM",
+    "spot": "0 229H PX8Q"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5291959,
+   "lng": -13.7084369,
+   "expected": {
+    "zone": "0-00214",
+    "number": 1004,
+    "machine": "GN-08954-1004-5",
+    "home": "Petit Bateau 1004",
+    "plate": "PETIT BATEAU · 1004",
+    "spoken": "Petit Bateau, dix zéro quatre",
+    "plus_code": "6CX8G7HR+MJG",
+    "spot": "0 22FJ 4WVX"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5084961,
+   "lng": -13.7215157,
+   "expected": {
+    "zone": "0-00207",
+    "number": 1254,
+    "machine": "GN-09011-1254-5",
+    "home": "Port 1254",
+    "plate": "PORT · 1254",
+    "spoken": "Port, douze cinquante-quatre",
+    "plus_code": "6CX8G75H+99X",
+    "spot": "0 229H 6QP3"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5102085,
+   "lng": -13.698686,
+   "expected": {
+    "zone": "0-00214",
+    "number": 1026,
+    "machine": "GN-08954-1026-4",
+    "home": "Petit Bateau 1026",
+    "plate": "PETIT BATEAU · 1026",
+    "spoken": "Petit Bateau, dix vingt-six",
+    "plus_code": "6CX8G862+3GP",
+    "spot": "0 229M 9RVR"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5195614,
+   "lng": -13.7210355,
+   "expected": {
+    "zone": "0-00208",
+    "number": 1002,
+    "machine": "GN-00053-1002-1",
+    "home": "Almamiya 1002",
+    "plate": "ALMAMIYA · 1002",
+    "spoken": "Almamiya, dix zéro deux",
+    "plus_code": "6CX8G79H+RHG",
+    "spot": "0 22CH 7Q3W"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5049858,
+   "lng": -13.7135685,
+   "expected": {
+    "zone": "0-00206",
+    "number": 2158,
+    "machine": "GN-01403-2158-6",
+    "home": "Boulbinet 2158",
+    "plate": "BOULBINET · 2158",
+    "spoken": "Boulbinet, vingt et un cinquante-huit",
+    "plus_code": "6CX8G73P+XHV",
+    "spot": "0 228J WF6J"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5095254,
+   "lng": -13.7021821,
+   "expected": {
+    "zone": "0-00211",
+    "number": 1006,
+    "machine": "GN-10857-1006-6",
+    "home": "Temenetaye 1006",
+    "plate": "TEMENETAYE · 1006",
+    "spoken": "Temenetaye, dix zéro six",
+    "plus_code": "6CX8G75X+R48",
+    "spot": "0 229M 8GHC"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5285597,
+   "lng": -13.711943,
+   "expected": {
+    "zone": "0-00214",
+    "number": 1038,
+    "machine": "GN-08954-1038-1",
+    "home": "Petit Bateau 1038",
+    "plate": "PETIT BATEAU · 1038",
+    "spoken": "Petit Bateau, dix trente-huit",
+    "plus_code": "6CX8G7HQ+C6F",
+    "spot": "0 22FJ 3JMH"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5077842,
+   "lng": -13.7051438,
+   "expected": {
+    "zone": "0-00210",
+    "number": 1159,
+    "machine": "GN-06422-1159-8",
+    "home": "Koulewondy 1159",
+    "plate": "KOULEWONDY · 1159",
+    "spoken": "Koulewondy, onze cinquante-neuf",
+    "plus_code": "6CX8G75V+4W9",
+    "spot": "0 229M 5792"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5278494,
+   "lng": -13.7192778,
+   "expected": {
+    "zone": "0-00214",
+    "number": 1031,
+    "machine": "GN-08954-1031-9",
+    "home": "Petit Bateau 1031",
+    "plate": "PETIT BATEAU · 1031",
+    "spoken": "Petit Bateau, dix trente et un",
+    "plus_code": "6CX8G7HJ+47Q",
+    "spot": "0 22FH 2X95"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5130491,
+   "lng": -13.7198746,
+   "expected": {
+    "zone": "0-00207",
+    "number": 1134,
+    "machine": "GN-09011-1134-2",
+    "home": "Port 1134",
+    "plate": "PORT · 1134",
+    "spoken": "Port, onze trente-quatre",
+    "plus_code": "6CX8G77J+636",
+    "spot": "0 229H MW33"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5222251,
+   "lng": -13.7153822,
+   "expected": {
+    "zone": "0-00208",
+    "number": 1004,
+    "machine": "GN-00053-1004-5",
+    "home": "Almamiya 1004",
+    "plate": "ALMAMIYA · 1004",
+    "spoken": "Almamiya, dix zéro quatre",
+    "plus_code": "6CX8G7CM+VRX",
+    "spot": "0 22CJ G827"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5210673,
+   "lng": -13.7150602,
+   "expected": {
+    "zone": "0-00208",
+    "number": 1006,
+    "machine": "GN-00053-1006-8",
+    "home": "Almamiya 1006",
+    "plate": "ALMAMIYA · 1006",
+    "spoken": "Almamiya, dix zéro six",
+    "plus_code": "6CX8G7CM+CXG",
+    "spot": "0 22CJ 98VV"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5249722,
+   "lng": -13.7218249,
+   "expected": {
+    "zone": "0-00208",
+    "number": 1924,
+    "machine": "GN-00053-1924-5",
+    "home": "Almamiya 1924",
+    "plate": "ALMAMIYA · 1924",
+    "spoken": "Almamiya, dix-neuf vingt-quatre",
+    "plus_code": "6CX8G7FH+X7M",
+    "spot": "0 22CH QP3G"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5155924,
+   "lng": -13.7161995,
+   "expected": {
+    "zone": "0-00207",
+    "number": 1468,
+    "machine": "GN-09011-1468-3",
+    "home": "Port 1468",
+    "plate": "PORT · 1468",
+    "spoken": "Port, quatorze soixante-huit",
+    "plus_code": "6CX8G78M+6GM",
+    "spot": "0 229J V6QQ"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5290613,
+   "lng": -13.6970149,
+   "expected": {
+    "zone": "0-00217",
+    "number": 1005,
+    "machine": "GN-07100-1005-2",
+    "home": "Lieux 1005",
+    "plate": "LIEUX · 1005",
+    "spoken": "Lieux, dix zéro cinq",
+    "plus_code": "6CX8G8H3+J5H",
+    "spot": "0 22FM 4XJV"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5167246,
+   "lng": -13.7164758,
+   "expected": {
+    "zone": "0-00207",
+    "number": 1472,
+    "machine": "GN-09011-1472-4",
+    "home": "Port 1472",
+    "plate": "PORT · 1472",
+    "spoken": "Port, quatorze soixante-douze",
+    "plus_code": "6CX8G78M+MCJ",
+    "spot": "0 229J X6V7"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5113651,
+   "lng": -13.694068,
+   "expected": {
+    "zone": "0-00214",
+    "number": 1006,
+    "machine": "GN-08954-1006-8",
+    "home": "Petit Bateau 1006",
+    "plate": "PETIT BATEAU · 1006",
+    "spoken": "Petit Bateau, dix zéro six",
+    "plus_code": "6CX8G864+G9V",
+    "spot": "0 229P F7X7"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5264869,
+   "lng": -13.7148725,
+   "expected": {
+    "zone": "0-00214",
+    "number": 1027,
+    "machine": "GN-08954-1027-8",
+    "home": "Petit Bateau 1027",
+    "plate": "PETIT BATEAU · 1027",
+    "spoken": "Petit Bateau, dix vingt-sept",
+    "plus_code": "6CX8G7GP+H3R",
+    "spot": "0 22CJ V9V6"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5190792,
+   "lng": -13.7100901,
+   "expected": {
+    "zone": "0-00214",
+    "number": 1007,
+    "machine": "GN-08954-1007-6",
+    "home": "Petit Bateau 1007",
+    "plate": "PETIT BATEAU · 1007",
+    "spoken": "Petit Bateau, dix zéro sept",
+    "plus_code": "6CX8G79Q+JXM",
+    "spot": "0 22CJ 6Q6X"
+   }
+  },
+  {
+   "why": "kaloum",
+   "lat": 9.5218752,
+   "lng": -13.6901953,
+   "expected": {
+    "zone": "0-00213",
+    "number": 2491,
+    "machine": "GN-11180-2491-0",
+    "home": "Tombo 2491",
+    "plate": "TOMBO · 2491",
+    "spoken": "Tombo, vingt-quatre quatre-vingt-onze",
+    "plus_code": "6CX8G8C5+QW3",
+    "spot": "0 22CP FJ99"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 9.6773365,
+   "lng": -9.9578882,
+   "expected": {
+    "zone": "3-13256",
+    "number": 1374,
+    "machine": "GN-06877-1374-5",
+    "home": "Laminia 1374",
+    "plate": "LAMINIA · 1374",
+    "spoken": "Laminia, treize soixante-quatorze",
+    "plus_code": "6CXGM2GR+WRQ",
+    "spot": "3 794F 3QCH"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 8.7563006,
+   "lng": -8.7050131,
+   "expected": {
+    "zone": "4-16240",
+    "number": 1449,
+    "machine": "GN-11388-1449-8",
+    "home": "Tourella 1449",
+    "plate": "TOURELLA · 1449",
+    "spoken": "Tourella, quatorze quarante-neuf",
+    "plus_code": "6CWHQ74V+GXH",
+    "spot": "4 9F66 9259"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 9.0374298,
+   "lng": -9.764895,
+   "expected": {
+    "zone": "3-13539",
+    "number": 1074,
+    "machine": "GN-01453-1074-6",
+    "home": "Boundo 1074",
+    "plate": "BOUNDO · 1074",
+    "spoken": "Boundo, dix soixante-quatorze",
+    "plus_code": "6CXG26PP+X2H",
+    "spot": "3 4C59 39PJ"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 10.8584221,
+   "lng": -9.9347195,
+   "expected": {
+    "zone": "3-11178",
+    "number": 1324,
+    "machine": "GN-03062-1324-5",
+    "home": "Faradala 1324",
+    "plate": "FARADALA · 1324",
+    "spoken": "Faradala, treize vingt-quatre",
+    "plus_code": "7C2GV358+946",
+    "spot": "3 G9GH WVQR"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 8.6610319,
+   "lng": -9.338022,
+   "expected": {
+    "zone": "3-13784",
+    "number": 1174,
+    "machine": "GN-04767-1174-2",
+    "home": "Kamaradou 1174",
+    "plate": "KAMARADOU · 1174",
+    "spoken": "Kamaradou, onze soixante-quatorze",
+    "plus_code": "6CWGMM66+CQ9",
+    "spot": "3 2GC8 98R9"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 11.4956,
+   "lng": -11.106368,
+   "expected": {
+    "zone": "3-07768",
+    "number": 1049,
+    "machine": "GN-11697-1049-5",
+    "home": "Woudy 1049",
+    "plate": "WOUDY · 1049",
+    "spoken": "Woudy, dix quarante-neuf",
+    "plus_code": "7C3CFVWV+6FR",
+    "spot": "3 M4F7 M2CF"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 11.3100791,
+   "lng": -14.1075729,
+   "expected": {
+    "zone": "1-03935",
+    "number": 1024,
+    "machine": "GN-07350-1024-1",
+    "home": "Magesan 1024",
+    "plate": "MAGESAN · 1024",
+    "spoken": "Magesan, dix vingt-quatre",
+    "plus_code": "7C378V6R+2XM",
+    "spot": "1 G7GQ 52FJ"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 10.8921674,
+   "lng": -10.519066,
+   "expected": {
+    "zone": "3-11565",
+    "number": 2074,
+    "machine": "GN-08475-2074-7",
+    "home": "Nono 2074",
+    "plate": "NONO · 2074",
+    "spoken": "Nono, vingt soixante-quatorze",
+    "plus_code": "7C2FVFRJ+V97",
+    "spot": "3 G6PW 2HXV"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 10.007178,
+   "lng": -10.0973163,
+   "expected": {
+    "zone": "3-11406",
+    "number": 1324,
+    "machine": "GN-02209-1324-8",
+    "home": "Diara 1324",
+    "plate": "DIARA · 1324",
+    "spoken": "Diara, treize vingt-quatre",
+    "plus_code": "7C2F2W43+V3F",
+    "spot": "3 88JV F3F6"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 11.3705984,
+   "lng": -9.5174683,
+   "expected": {
+    "zone": "3-09770",
+    "number": 1024,
+    "machine": "GN-08395-1024-8",
+    "home": "Niéro 1024",
+    "plate": "NIÉRO · 1024",
+    "spoken": "Niéro, dix vingt-quatre",
+    "plus_code": "7C3G9FCM+62M",
+    "spot": "3 JFWF 4XX2"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 10.4459302,
+   "lng": -9.2875898,
+   "expected": {
+    "zone": "3-10764",
+    "number": 1224,
+    "machine": "GN-02145-1224-3",
+    "home": "Dialfaranin 1224",
+    "plate": "DIALFARANIN · 1224",
+    "spoken": "Dialfaranin, douze vingt-quatre",
+    "plus_code": "7C2GCPW6+9XF",
+    "spot": "3 CGJG WW89"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 10.3494879,
+   "lng": -12.7554469,
+   "expected": {
+    "zone": "1-01763",
+    "number": 27949,
+    "machine": "GN-11867-27949-8",
+    "home": "Yattaya 27949",
+    "plate": "YATTAYA · 27949",
+    "spoken": "Yattaya, deux, soixante-dix-neuf quarante-neuf",
+    "plus_code": "7C2986XV+QRV",
+    "spot": "1 8H3W J6HM"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 8.6682941,
+   "lng": -8.4006327,
+   "expected": {
+    "zone": "4-16523",
+    "number": 1074,
+    "machine": "GN-07967-1074-2",
+    "home": "Moribadougou 1074",
+    "plate": "MORIBADOUGOU · 1074",
+    "spoken": "Moribadougou, dix soixante-quatorze",
+    "plus_code": "6CWHMH9X+8P9",
+    "spot": "4 8GRH 6XW3"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 11.5014272,
+   "lng": -9.03851,
+   "expected": {
+    "zone": "3-09376",
+    "number": 1224,
+    "machine": "GN-05649-1224-9",
+    "home": "Kobada 1224",
+    "plate": "KOBADA · 1224",
+    "spoken": "Kobada, douze vingt-quatre",
+    "plus_code": "7C3GGX26+HHH",
+    "spot": "3 MHGM 6J5P"
+   }
+  },
+  {
+   "why": "country",
+   "lat": 12.1127983,
+   "lng": -13.0989117,
+   "expected": {
+    "zone": "1-04558",
+    "number": 1049,
+    "machine": "GN-10782-1049-1",
+    "home": "Tchianhoué 1049",
+    "plate": "TCHIANHOUÉ · 1049",
+    "spoken": "Tchianhoué, dix quarante-neuf",
+    "plus_code": "7C484W72+4C8",
+    "spot": "1 PG68 5W8Q"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5153478,
+   "lng": -13.7069641,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1008,
+    "machine": "GN-08954-1008-4",
+    "home": "Petit Bateau 1008",
+    "plate": "PETIT BATEAU · 1008",
+    "spoken": "Petit Bateau, dix zéro huit",
+    "plus_code": "6CX8G78V+46M",
+    "spot": "0 229M V38M"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5151931,
+   "lng": -13.7071293,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1010,
+    "machine": "GN-08954-1010-1",
+    "home": "Petit Bateau 1010",
+    "plate": "PETIT BATEAU · 1010",
+    "spoken": "Petit Bateau, dix dix",
+    "plus_code": "6CX8G78V+34H",
+    "spot": "0 229M V329"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5154142,
+   "lng": -13.7068453,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1011,
+    "machine": "GN-08954-1011-7",
+    "home": "Petit Bateau 1011",
+    "plate": "PETIT BATEAU · 1011",
+    "spoken": "Petit Bateau, dix onze",
+    "plus_code": "6CX8G78V+576",
+    "spot": "0 229M V3FW"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5153738,
+   "lng": -13.7068185,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1012,
+    "machine": "GN-08954-1012-5",
+    "home": "Petit Bateau 1012",
+    "plate": "PETIT BATEAU · 1012",
+    "spoken": "Petit Bateau, dix douze",
+    "plus_code": "6CX8G78V+47V",
+    "spot": "0 229M V39X"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.515336,
+   "lng": -13.7070668,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1014,
+    "machine": "GN-08954-1014-9",
+    "home": "Petit Bateau 1014",
+    "plate": "PETIT BATEAU · 1014",
+    "spoken": "Petit Bateau, dix quatorze",
+    "plus_code": "6CX8G78V+45M",
+    "spot": "0 229M V38G"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5152516,
+   "lng": -13.7070881,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1015,
+    "machine": "GN-08954-1015-8",
+    "home": "Petit Bateau 1015",
+    "plate": "PETIT BATEAU · 1015",
+    "spoken": "Petit Bateau, dix quinze",
+    "plus_code": "6CX8G78V+453",
+    "spot": "0 229M V35F"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5154231,
+   "lng": -13.7073943,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1016,
+    "machine": "GN-08954-1016-3",
+    "home": "Petit Bateau 1016",
+    "plate": "PETIT BATEAU · 1016",
+    "spoken": "Petit Bateau, dix seize",
+    "plus_code": "6CX8G78V+529",
+    "spot": "0 229M V2FW"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5154277,
+   "lng": -13.7067507,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1018,
+    "machine": "GN-08954-1018-2",
+    "home": "Petit Bateau 1018",
+    "plate": "PETIT BATEAU · 1018",
+    "spoken": "Petit Bateau, dix dix-huit",
+    "plus_code": "6CX8G78V+57H",
+    "spot": "0 229M V4F3"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5154968,
+   "lng": -13.7069272,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1019,
+    "machine": "GN-08954-1019-6",
+    "home": "Petit Bateau 1019",
+    "plate": "PETIT BATEAU · 1019",
+    "spoken": "Petit Bateau, dix dix-neuf",
+    "plus_code": "6CX8G78V+56W",
+    "spot": "0 229M V3JQ"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5150798,
+   "lng": -13.7069321,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1020,
+    "machine": "GN-08954-1020-7",
+    "home": "Petit Bateau 1020",
+    "plate": "PETIT BATEAU · 1020",
+    "spoken": "Petit Bateau, dix vingt",
+    "plus_code": "6CX8G78V+26P",
+    "spot": "0 229M R3RQ"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.515627,
+   "lng": -13.7067522,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1022,
+    "machine": "GN-08954-1022-9",
+    "home": "Petit Bateau 1022",
+    "plate": "PETIT BATEAU · 1022",
+    "spoken": "Petit Bateau, dix vingt-deux",
+    "plus_code": "6CX8G78V+775",
+    "spot": "0 229M V4R3"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5149944,
+   "lng": -13.7073218,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1023,
+    "machine": "GN-08954-1023-2",
+    "home": "Petit Bateau 1023",
+    "plate": "PETIT BATEAU · 1023",
+    "spoken": "Petit Bateau, dix vingt-trois",
+    "plus_code": "6CX8G77V+X3V",
+    "spot": "0 229M R3M2"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5154469,
+   "lng": -13.7068498,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1024,
+    "machine": "GN-08954-1024-1",
+    "home": "Petit Bateau 1024",
+    "plate": "PETIT BATEAU · 1024",
+    "spoken": "Petit Bateau, dix vingt-quatre",
+    "plus_code": "6CX8G78V+57C",
+    "spot": "0 229M V3GW"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.515463,
+   "lng": -13.7071431,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1029,
+    "machine": "GN-08954-1029-3",
+    "home": "Petit Bateau 1029",
+    "plate": "PETIT BATEAU · 1029",
+    "spoken": "Petit Bateau, dix vingt-neuf",
+    "plus_code": "6CX8G78V+54Q",
+    "spot": "0 229M V3G9"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5151361,
+   "lng": -13.7071342,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1030,
+    "machine": "GN-08954-1030-8",
+    "home": "Petit Bateau 1030",
+    "plate": "PETIT BATEAU · 1030",
+    "spoken": "Petit Bateau, dix trente",
+    "plus_code": "6CX8G78V+345",
+    "spot": "0 229M R3W9"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5151701,
+   "lng": -13.7070808,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1033,
+    "machine": "GN-08954-1033-5",
+    "home": "Petit Bateau 1033",
+    "plate": "PETIT BATEAU · 1033",
+    "spoken": "Petit Bateau, dix trente-trois",
+    "plus_code": "6CX8G78V+357",
+    "spot": "0 229M V32F"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5152954,
+   "lng": -13.7070328,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1034,
+    "machine": "GN-08954-1034-3",
+    "home": "Petit Bateau 1034",
+    "plate": "PETIT BATEAU · 1034",
+    "spoken": "Petit Bateau, dix trente-quatre",
+    "plus_code": "6CX8G78V+458",
+    "spot": "0 229M V36H"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.515089,
+   "lng": -13.7070028,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1035,
+    "machine": "GN-08954-1035-6",
+    "home": "Petit Bateau 1035",
+    "plate": "PETIT BATEAU · 1035",
+    "spoken": "Petit Bateau, dix trente-cinq",
+    "plus_code": "6CX8G78V+25Q",
+    "spot": "0 229M R3VJ"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5152402,
+   "lng": -13.7074493,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1037,
+    "machine": "GN-08954-1037-0",
+    "home": "Petit Bateau 1037",
+    "plate": "PETIT BATEAU · 1037",
+    "spoken": "Petit Bateau, dix trente-sept",
+    "plus_code": "6CX8G78V+32V",
+    "spot": "0 229M V24R"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5149193,
+   "lng": -13.7072692,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1039,
+    "machine": "GN-08954-1039-7",
+    "home": "Petit Bateau 1039",
+    "plate": "PETIT BATEAU · 1039",
+    "spoken": "Petit Bateau, dix trente-neuf",
+    "plus_code": "6CX8G77V+X39",
+    "spot": "0 229M R3G4"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5154318,
+   "lng": -13.7068621,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1041,
+    "machine": "GN-08954-1041-6",
+    "home": "Petit Bateau 1041",
+    "plate": "PETIT BATEAU · 1041",
+    "spoken": "Petit Bateau, dix quarante et un",
+    "plus_code": "6CX8G78V+57C",
+    "spot": "0 229M V3FV"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5154118,
+   "lng": -13.7069082,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1042,
+    "machine": "GN-08954-1042-7",
+    "home": "Petit Bateau 1042",
+    "plate": "PETIT BATEAU · 1042",
+    "spoken": "Petit Bateau, dix quarante-deux",
+    "plus_code": "6CX8G78V+568",
+    "spot": "0 229M V3CQ"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5152931,
+   "lng": -13.707125,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1043,
+    "machine": "GN-08954-1043-4",
+    "home": "Petit Bateau 1043",
+    "plate": "PETIT BATEAU · 1043",
+    "spoken": "Petit Bateau, dix quarante-trois",
+    "plus_code": "6CX8G78V+456",
+    "spot": "0 229M V369"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5150323,
+   "lng": -13.7067687,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1045,
+    "machine": "GN-08954-1045-0",
+    "home": "Petit Bateau 1045",
+    "plate": "PETIT BATEAU · 1045",
+    "spoken": "Petit Bateau, dix quarante-cinq",
+    "plus_code": "6CX8G78V+279",
+    "spot": "0 229M R4Q3"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5159122,
+   "lng": -13.7068253,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1046,
+    "machine": "GN-08954-1046-9",
+    "home": "Petit Bateau 1046",
+    "plate": "PETIT BATEAU · 1046",
+    "spoken": "Petit Bateau, dix quarante-six",
+    "plus_code": "6CX8G78V+977",
+    "spot": "0 229M W39W"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5158701,
+   "lng": -13.7068573,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1047,
+    "machine": "GN-08954-1047-5",
+    "home": "Petit Bateau 1047",
+    "plate": "PETIT BATEAU · 1047",
+    "spoken": "Petit Bateau, dix quarante-sept",
+    "plus_code": "6CX8G78V+87R",
+    "spot": "0 229M W37V"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5153678,
+   "lng": -13.7073142,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1125,
+    "machine": "GN-08954-1125-0",
+    "home": "Petit Bateau 1125",
+    "plate": "PETIT BATEAU · 1125",
+    "spoken": "Petit Bateau, onze vingt-cinq",
+    "plus_code": "6CX8G78V+43V",
+    "spot": "0 229M V393",
+    "new_blocks": [
+     [
+      1050,
+      1199
+     ]
+    ]
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5153538,
+   "lng": -13.7069812,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1087,
+    "machine": "GN-08954-1087-9",
+    "home": "Petit Bateau 1087",
+    "plate": "PETIT BATEAU · 1087",
+    "spoken": "Petit Bateau, dix quatre-vingt-sept",
+    "plus_code": "6CX8G78V+46R",
+    "spot": "0 229M V38M"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5149697,
+   "lng": -13.7068353,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1162,
+    "machine": "GN-08954-1162-5",
+    "home": "Petit Bateau 1162",
+    "plate": "PETIT BATEAU · 1162",
+    "spoken": "Petit Bateau, onze soixante-deux",
+    "plus_code": "6CX8G77V+X7M",
+    "spot": "0 229M R3JW"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5154014,
+   "lng": -13.7069109,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1106,
+    "machine": "GN-08954-1106-4",
+    "home": "Petit Bateau 1106",
+    "plate": "PETIT BATEAU · 1106",
+    "spoken": "Petit Bateau, onze zéro six",
+    "plus_code": "6CX8G78V+568",
+    "spot": "0 229M V3CQ"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5155181,
+   "lng": -13.7071437,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1143,
+    "machine": "GN-08954-1143-1",
+    "home": "Petit Bateau 1143",
+    "plate": "PETIT BATEAU · 1143",
+    "spoken": "Petit Bateau, onze quarante-trois",
+    "plus_code": "6CX8G78V+645",
+    "spot": "0 229M V3J9"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5150664,
+   "lng": -13.7074346,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1115,
+    "machine": "GN-08954-1115-6",
+    "home": "Petit Bateau 1115",
+    "plate": "PETIT BATEAU · 1115",
+    "spoken": "Petit Bateau, onze quinze",
+    "plus_code": "6CX8G78V+22G",
+    "spot": "0 229M R2RR"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.515335,
+   "lng": -13.7067454,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1068,
+    "machine": "GN-08954-1068-0",
+    "home": "Petit Bateau 1068",
+    "plate": "PETIT BATEAU · 1068",
+    "spoken": "Petit Bateau, dix soixante-huit",
+    "plus_code": "6CX8G78V+48J",
+    "spot": "0 229M V483"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5157396,
+   "lng": -13.7071747,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1152,
+    "machine": "GN-08954-1152-3",
+    "home": "Petit Bateau 1152",
+    "plate": "PETIT BATEAU · 1152",
+    "spoken": "Petit Bateau, onze cinquante-deux",
+    "plus_code": "6CX8G78V+74W",
+    "spot": "0 229M W338"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5155534,
+   "lng": -13.7067129,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1058,
+    "machine": "GN-08954-1058-9",
+    "home": "Petit Bateau 1058",
+    "plate": "PETIT BATEAU · 1058",
+    "spoken": "Petit Bateau, dix cinquante-huit",
+    "plus_code": "6CX8G78V+68F",
+    "spot": "0 229M V4P5"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5148671,
+   "lng": -13.7070375,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1157,
+    "machine": "GN-08954-1157-2",
+    "home": "Petit Bateau 1157",
+    "plate": "PETIT BATEAU · 1157",
+    "spoken": "Petit Bateau, onze cinquante-sept",
+    "plus_code": "6CX8G77V+W5W",
+    "spot": "0 229M R3CH"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5155227,
+   "lng": -13.7066457,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1063,
+    "machine": "GN-08954-1063-8",
+    "home": "Petit Bateau 1063",
+    "plate": "PETIT BATEAU · 1063",
+    "spoken": "Petit Bateau, dix soixante-trois",
+    "plus_code": "6CX8G78V+685",
+    "spot": "0 229M V4M7"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5158533,
+   "lng": -13.7071783,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1154,
+    "machine": "GN-08954-1154-6",
+    "home": "Petit Bateau 1154",
+    "plate": "PETIT BATEAU · 1154",
+    "spoken": "Petit Bateau, onze cinquante-quatre",
+    "plus_code": "6CX8G78V+84W",
+    "spot": "0 229M W378"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5147932,
+   "lng": -13.7067735,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1181,
+    "machine": "GN-08954-1181-2",
+    "home": "Petit Bateau 1181",
+    "plate": "PETIT BATEAU · 1181",
+    "spoken": "Petit Bateau, onze quatre-vingt-un",
+    "plus_code": "6CX8G77V+W79",
+    "spot": "0 229M R482"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5150953,
+   "lng": -13.7072831,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1110,
+    "machine": "GN-08954-1110-8",
+    "home": "Petit Bateau 1110",
+    "plate": "PETIT BATEAU · 1110",
+    "spoken": "Petit Bateau, onze dix",
+    "plus_code": "6CX8G78V+23P",
+    "spot": "0 229M R3V4"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5151178,
+   "lng": -13.7071594,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1108,
+    "machine": "GN-08954-1108-6",
+    "home": "Petit Bateau 1108",
+    "plate": "PETIT BATEAU · 1108",
+    "spoken": "Petit Bateau, onze zéro huit",
+    "plus_code": "6CX8G78V+24W",
+    "spot": "0 229M R3W8"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5154457,
+   "lng": -13.7070549,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1107,
+    "machine": "GN-08954-1107-8",
+    "home": "Petit Bateau 1107",
+    "plate": "PETIT BATEAU · 1107",
+    "spoken": "Petit Bateau, onze zéro sept",
+    "plus_code": "6CX8G78V+55G",
+    "spot": "0 229M V3GG"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5153332,
+   "lng": -13.7070042,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1077,
+    "machine": "GN-08954-1077-1",
+    "home": "Petit Bateau 1077",
+    "plate": "PETIT BATEAU · 1077",
+    "spoken": "Petit Bateau, dix soixante-dix-sept",
+    "plus_code": "6CX8G78V+45Q",
+    "spot": "0 229M V38J"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5152177,
+   "lng": -13.7068171,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1072,
+    "machine": "GN-08954-1072-6",
+    "home": "Petit Bateau 1072",
+    "plate": "PETIT BATEAU · 1072",
+    "spoken": "Petit Bateau, dix soixante-douze",
+    "plus_code": "6CX8G78V+37M",
+    "spot": "0 229M V33X"
+   }
+  },
+  {
+   "why": "door 0-00214",
+   "lat": 9.5155558,
+   "lng": -13.7068237,
+   "of": "GN-08954-1001-3",
+   "expected": {
+    "zone": "0-00214",
+    "number": 1053,
+    "machine": "GN-08954-1053-1",
+    "home": "Petit Bateau 1053",
+    "plate": "PETIT BATEAU · 1053",
+    "spoken": "Petit Bateau, dix cinquante-trois",
+    "plus_code": "6CX8G78V+67F",
+    "spot": "0 229M V3PX"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.509375,
+   "lng": -13.709368,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1963,
+    "machine": "GN-07594-1963-0",
+    "home": "Manquepas 1963",
+    "plate": "MANQUEPAS · 1963",
+    "spoken": "Manquepas, dix-neuf soixante-trois",
+    "plus_code": "6CX8G75R+Q72",
+    "spot": "0 229J 8V87"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5099582,
+   "lng": -13.7092435,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1971,
+    "machine": "GN-07594-1971-1",
+    "home": "Manquepas 1971",
+    "plate": "MANQUEPAS · 1971",
+    "spoken": "Manquepas, dix-neuf soixante et onze",
+    "plus_code": "6CX8G75R+X8J",
+    "spot": "0 229J 9V9G"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5098297,
+   "lng": -13.7096272,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1956,
+    "machine": "GN-07594-1956-7",
+    "home": "Manquepas 1956",
+    "plate": "MANQUEPAS · 1956",
+    "spoken": "Manquepas, dix-neuf cinquante-six",
+    "plus_code": "6CX8G75R+W4Q",
+    "spot": "0 229J 9R5R"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5101973,
+   "lng": -13.7094082,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1973,
+    "machine": "GN-07594-1973-3",
+    "home": "Manquepas 1973",
+    "plate": "MANQUEPAS · 1973",
+    "spoken": "Manquepas, dix-neuf soixante-treize",
+    "plus_code": "6CX8G76R+36G",
+    "spot": "0 229J 9VR6"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5101387,
+   "lng": -13.7090745,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1974,
+    "machine": "GN-07594-1974-0",
+    "home": "Manquepas 1974",
+    "plate": "MANQUEPAS · 1974",
+    "spoken": "Manquepas, dix-neuf soixante-quatorze",
+    "plus_code": "6CX8G76R+393",
+    "spot": "0 229J 9VPR"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5096323,
+   "lng": -13.7094562,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1958,
+    "machine": "GN-07594-1958-0",
+    "home": "Manquepas 1958",
+    "plate": "MANQUEPAS · 1958",
+    "spoken": "Manquepas, dix-neuf cinquante-huit",
+    "plus_code": "6CX8G75R+V63",
+    "spot": "0 229J 8VQ4"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5095001,
+   "lng": -13.709682,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1965,
+    "machine": "GN-07594-1965-8",
+    "home": "Manquepas 1965",
+    "plate": "MANQUEPAS · 1965",
+    "spoken": "Manquepas, dix-neuf soixante-cinq",
+    "plus_code": "6CX8G75R+R44",
+    "spot": "0 229J 8RHP"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5095597,
+   "lng": -13.7099626,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1964,
+    "machine": "GN-07594-1964-9",
+    "home": "Manquepas 1964",
+    "plate": "MANQUEPAS · 1964",
+    "spoken": "Manquepas, dix-neuf soixante-quatre",
+    "plus_code": "6CX8G75R+R2F",
+    "spot": "0 229J 8RM6"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5100794,
+   "lng": -13.7090312,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1955,
+    "machine": "GN-07594-1955-1",
+    "home": "Manquepas 1955",
+    "plate": "MANQUEPAS · 1955",
+    "spoken": "Manquepas, dix-neuf cinquante-cinq",
+    "plus_code": "6CX8G76R+29Q",
+    "spot": "0 229J 9VJW"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5100517,
+   "lng": -13.7088574,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1978,
+    "machine": "GN-07594-1978-7",
+    "home": "Manquepas 1978",
+    "plate": "MANQUEPAS · 1978",
+    "spoken": "Manquepas, dix-neuf soixante-dix-huit",
+    "plus_code": "6CX8G76R+2FC",
+    "spot": "0 229J 9WH6"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5100855,
+   "lng": -13.7095347,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1957,
+    "machine": "GN-07594-1957-2",
+    "home": "Manquepas 1957",
+    "plate": "MANQUEPAS · 1957",
+    "spoken": "Manquepas, dix-neuf cinquante-sept",
+    "plus_code": "6CX8G76R+25P",
+    "spot": "0 229J 9RJX"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5096656,
+   "lng": -13.7095819,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1959,
+    "machine": "GN-07594-1959-5",
+    "home": "Manquepas 1959",
+    "plate": "MANQUEPAS · 1959",
+    "spoken": "Manquepas, dix-neuf cinquante-neuf",
+    "plus_code": "6CX8G75R+V57",
+    "spot": "0 229J 8RVW"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5099502,
+   "lng": -13.7096179,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1969,
+    "machine": "GN-07594-1969-6",
+    "home": "Manquepas 1969",
+    "plate": "MANQUEPAS · 1969",
+    "spoken": "Manquepas, dix-neuf soixante-neuf",
+    "plus_code": "6CX8G75R+X5J",
+    "spot": "0 229J 9R9R"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.509801,
+   "lng": -13.7093032,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1961,
+    "machine": "GN-07594-1961-7",
+    "home": "Manquepas 1961",
+    "plate": "MANQUEPAS · 1961",
+    "spoken": "Manquepas, dix-neuf soixante et un",
+    "plus_code": "6CX8G75R+W7G",
+    "spot": "0 229J 9V4C"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5098502,
+   "lng": -13.7094517,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1962,
+    "machine": "GN-07594-1962-5",
+    "home": "Manquepas 1962",
+    "plate": "MANQUEPAS · 1962",
+    "spoken": "Manquepas, dix-neuf soixante-deux",
+    "plus_code": "6CX8G75R+W6V",
+    "spot": "0 229J 9V54"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5093987,
+   "lng": -13.7098904,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1966,
+    "machine": "GN-07594-1966-3",
+    "home": "Manquepas 1966",
+    "plate": "MANQUEPAS · 1966",
+    "spoken": "Manquepas, dix-neuf soixante-six",
+    "plus_code": "6CX8G75R+Q25",
+    "spot": "0 229J 8R98"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5096101,
+   "lng": -13.7090915,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1968,
+    "machine": "GN-07594-1968-2",
+    "home": "Manquepas 1968",
+    "plate": "MANQUEPAS · 1968",
+    "spoken": "Manquepas, dix-neuf soixante-huit",
+    "plus_code": "6CX8G75R+R9V",
+    "spot": "0 229J 8VQR"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.50913,
+   "lng": -13.7093256,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1970,
+    "machine": "GN-07594-1970-6",
+    "home": "Manquepas 1970",
+    "plate": "MANQUEPAS · 1970",
+    "spoken": "Manquepas, dix-neuf soixante-dix",
+    "plus_code": "6CX8G75R+M73",
+    "spot": "0 229J 7VV9"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5095777,
+   "lng": -13.7091569,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1972,
+    "machine": "GN-07594-1972-2",
+    "home": "Manquepas 1972",
+    "plate": "MANQUEPAS · 1972",
+    "spoken": "Manquepas, dix-neuf soixante-douze",
+    "plus_code": "6CX8G75R+R8P",
+    "spot": "0 229J 8VMM"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5093881,
+   "lng": -13.7095674,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1976,
+    "machine": "GN-07594-1976-5",
+    "home": "Manquepas 1976",
+    "plate": "MANQUEPAS · 1976",
+    "spoken": "Manquepas, dix-neuf soixante-seize",
+    "plus_code": "6CX8G75R+Q53",
+    "spot": "0 229J 8R8W"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5098427,
+   "lng": -13.7095447,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1977,
+    "machine": "GN-07594-1977-9",
+    "home": "Manquepas 1977",
+    "plate": "MANQUEPAS · 1977",
+    "spoken": "Manquepas, dix-neuf soixante-dix-sept",
+    "plus_code": "6CX8G75R+W5P",
+    "spot": "0 229J 9R5X"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5093061,
+   "lng": -13.7091527,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1979,
+    "machine": "GN-07594-1979-8",
+    "home": "Manquepas 1979",
+    "plate": "MANQUEPAS · 1979",
+    "spoken": "Manquepas, dix-neuf soixante-dix-neuf",
+    "plus_code": "6CX8G75R+P8H",
+    "spot": "0 229J 8V5M"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5096547,
+   "lng": -13.7095211,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1980,
+    "machine": "GN-07594-1980-4",
+    "home": "Manquepas 1980",
+    "plate": "MANQUEPAS · 1980",
+    "spoken": "Manquepas, dix-neuf quatre-vingts",
+    "plus_code": "6CX8G75R+V59",
+    "spot": "0 229J 8VR2"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5096819,
+   "lng": -13.7091414,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1981,
+    "machine": "GN-07594-1981-2",
+    "home": "Manquepas 1981",
+    "plate": "MANQUEPAS · 1981",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-un",
+    "plus_code": "6CX8G75R+V8H",
+    "spot": "0 229J 8VVP"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5093146,
+   "lng": -13.7097429,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1983,
+    "machine": "GN-07594-1983-6",
+    "home": "Manquepas 1983",
+    "plate": "MANQUEPAS · 1983",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-trois",
+    "plus_code": "6CX8G75R+P4C",
+    "spot": "0 229J 8R6J"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5098021,
+   "lng": -13.7099705,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1984,
+    "machine": "GN-07594-1984-8",
+    "home": "Manquepas 1984",
+    "plate": "MANQUEPAS · 1984",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-quatre",
+    "plus_code": "6CX8G75R+W2C",
+    "spot": "0 229J 9R45"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5096786,
+   "lng": -13.7094275,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1985,
+    "machine": "GN-07594-1985-7",
+    "home": "Manquepas 1985",
+    "plate": "MANQUEPAS · 1985",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-cinq",
+    "plus_code": "6CX8G75R+V6G",
+    "spot": "0 229J 8VV5"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5097467,
+   "lng": -13.709424,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1986,
+    "machine": "GN-07594-1986-1",
+    "home": "Manquepas 1986",
+    "plate": "MANQUEPAS · 1986",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-six",
+    "plus_code": "6CX8G75R+V6W",
+    "spot": "0 229J 9V25"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5098213,
+   "lng": -13.7094798,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1987,
+    "machine": "GN-07594-1987-3",
+    "home": "Manquepas 1987",
+    "plate": "MANQUEPAS · 1987",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-sept",
+    "plus_code": "6CX8G75R+W6C",
+    "spot": "0 229J 9V43"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5099367,
+   "lng": -13.709619,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1988,
+    "machine": "GN-07594-1988-5",
+    "home": "Manquepas 1988",
+    "plate": "MANQUEPAS · 1988",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-huit",
+    "plus_code": "6CX8G75R+X5C",
+    "spot": "0 229J 9R9R"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5096323,
+   "lng": -13.7092953,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1990,
+    "machine": "GN-07594-1990-5",
+    "home": "Manquepas 1990",
+    "plate": "MANQUEPAS · 1990",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-dix",
+    "plus_code": "6CX8G75R+V74",
+    "spot": "0 229J 8VQC"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5096431,
+   "lng": -13.7093522,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1991,
+    "machine": "GN-07594-1991-8",
+    "home": "Manquepas 1991",
+    "plate": "MANQUEPAS · 1991",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-onze",
+    "plus_code": "6CX8G75R+V72",
+    "spot": "0 229J 8VR8"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5097614,
+   "lng": -13.7093934,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1992,
+    "machine": "GN-07594-1992-6",
+    "home": "Manquepas 1992",
+    "plate": "MANQUEPAS · 1992",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-douze",
+    "plus_code": "6CX8G75R+W65",
+    "spot": "0 229J 9V26"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5093317,
+   "lng": -13.7089632,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1993,
+    "machine": "GN-07594-1993-9",
+    "home": "Manquepas 1993",
+    "plate": "MANQUEPAS · 1993",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-treize",
+    "plus_code": "6CX8G75R+PCM",
+    "spot": "0 229J 8W62"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5097646,
+   "lng": -13.7094216,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1994,
+    "machine": "GN-07594-1994-7",
+    "home": "Manquepas 1994",
+    "plate": "MANQUEPAS · 1994",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-quatorze",
+    "plus_code": "6CX8G75R+W64",
+    "spot": "0 229J 9V25"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5096714,
+   "lng": -13.7094079,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1995,
+    "machine": "GN-07594-1995-2",
+    "home": "Manquepas 1995",
+    "plate": "MANQUEPAS · 1995",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-quinze",
+    "plus_code": "6CX8G75R+V68",
+    "spot": "0 229J 8VV6"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5098743,
+   "lng": -13.7092697,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1997,
+    "machine": "GN-07594-1997-1",
+    "home": "Manquepas 1997",
+    "plate": "MANQUEPAS · 1997",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-dix-sept",
+    "plus_code": "6CX8G75R+W7X",
+    "spot": "0 229J 9V6F"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5097787,
+   "lng": -13.7093838,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1998,
+    "machine": "GN-07594-1998-3",
+    "home": "Manquepas 1998",
+    "plate": "MANQUEPAS · 1998",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-dix-huit",
+    "plus_code": "6CX8G75R+W69",
+    "spot": "0 229J 9V37"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5100802,
+   "lng": -13.7093601,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 1999,
+    "machine": "GN-07594-1999-4",
+    "home": "Manquepas 1999",
+    "plate": "MANQUEPAS · 1999",
+    "spoken": "Manquepas, dix-neuf quatre-vingt-dix-neuf",
+    "plus_code": "6CX8G76R+27J",
+    "spot": "0 229J 9VJ8"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.510257,
+   "lng": -13.7091603,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 2825,
+    "machine": "GN-07594-2825-6",
+    "home": "Manquepas 2825",
+    "plate": "MANQUEPAS · 2825",
+    "spoken": "Manquepas, vingt-huit vingt-cinq",
+    "plus_code": "6CX8G76R+484",
+    "spot": "0 229J 9VWM",
+    "new_blocks": [
+     [
+      2750,
+      2899
+     ]
+    ]
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5098074,
+   "lng": -13.7096234,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 2787,
+    "machine": "GN-07594-2787-3",
+    "home": "Manquepas 2787",
+    "plate": "MANQUEPAS · 2787",
+    "spoken": "Manquepas, vingt-sept quatre-vingt-sept",
+    "plus_code": "6CX8G75R+W5C",
+    "spot": "0 229J 9R4R"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.509371,
+   "lng": -13.7094496,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 2806,
+    "machine": "GN-07594-2806-3",
+    "home": "Manquepas 2806",
+    "plate": "MANQUEPAS · 2806",
+    "spoken": "Manquepas, vingt-huit zéro six",
+    "plus_code": "6CX8G75R+P6V",
+    "spot": "0 229J 8V84"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5095158,
+   "lng": -13.7091764,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 2768,
+    "machine": "GN-07594-2768-2",
+    "home": "Manquepas 2768",
+    "plate": "MANQUEPAS · 2768",
+    "spoken": "Manquepas, vingt-sept soixante-huit",
+    "plus_code": "6CX8G75R+R84",
+    "spot": "0 229J 8VHJ"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.510054,
+   "lng": -13.7094172,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 2815,
+    "machine": "GN-07594-2815-2",
+    "home": "Manquepas 2815",
+    "plate": "MANQUEPAS · 2815",
+    "spoken": "Manquepas, vingt-huit quinze",
+    "plus_code": "6CX8G76R+26G",
+    "spot": "0 229J 9VH6"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.509655,
+   "lng": -13.709363,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 2777,
+    "machine": "GN-07594-2777-9",
+    "home": "Manquepas 2777",
+    "plate": "MANQUEPAS · 2777",
+    "spoken": "Manquepas, vingt-sept soixante-dix-sept",
+    "plus_code": "6CX8G75R+V76",
+    "spot": "0 229J 8VR8"
+   }
+  },
+  {
+   "why": "door 0-00209",
+   "lat": 9.5095687,
+   "lng": -13.7093766,
+   "of": "GN-07594-1953-8",
+   "expected": {
+    "zone": "0-00209",
+    "number": 2796,
+    "machine": "GN-07594-2796-0",
+    "home": "Manquepas 2796",
+    "plate": "MANQUEPAS · 2796",
+    "spoken": "Manquepas, vingt-sept quatre-vingt-seize",
+    "plus_code": "6CX8G75R+R6H",
+    "spot": "0 229J 8VM7"
+   }
+  }
+ ]
+}

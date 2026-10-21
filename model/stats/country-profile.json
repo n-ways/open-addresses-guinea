@@ -1,0 +1,248 @@
+{
+ "classMix": [
+  {
+   "cls": "RES",
+   "n": 5045375,
+   "pct": 95.5
+  },
+  {
+   "cls": "ANX",
+   "n": 216914,
+   "pct": 4.11
+  },
+  {
+   "cls": "CON",
+   "n": 10031,
+   "pct": 0.19
+  },
+  {
+   "cls": "GOV",
+   "n": 3513,
+   "pct": 0.07
+  },
+  {
+   "cls": "COM",
+   "n": 2768,
+   "pct": 0.05
+  },
+  {
+   "cls": "EDU",
+   "n": 1708,
+   "pct": 0.03
+  },
+  {
+   "cls": "REL",
+   "n": 1040,
+   "pct": 0.02
+  },
+  {
+   "cls": "HEA",
+   "n": 869,
+   "pct": 0.02
+  },
+  {
+   "cls": "TRA",
+   "n": 331,
+   "pct": 0.01
+  },
+  {
+   "cls": "IND",
+   "n": 199,
+   "pct": 0.0
+  },
+  {
+   "cls": "HOS",
+   "n": 158,
+   "pct": 0.0
+  },
+  {
+   "cls": "AGR",
+   "n": 66,
+   "pct": 0.0
+  },
+  {
+   "cls": "RUI",
+   "n": 65,
+   "pct": 0.0
+  }
+ ],
+ "classSource": [
+  {
+   "cls_src": "default",
+   "n": 4413091,
+   "pct": 83.53
+  },
+  {
+   "cls_src": "osm:building",
+   "n": 534550,
+   "pct": 10.12
+  },
+  {
+   "cls_src": "shape",
+   "n": 327187,
+   "pct": 6.19
+  },
+  {
+   "cls_src": "n-ways:place",
+   "n": 3853,
+   "pct": 0.07
+  },
+  {
+   "cls_src": "n-ways:compound",
+   "n": 3326,
+   "pct": 0.06
+  },
+  {
+   "cls_src": "osm:tags",
+   "n": 1030,
+   "pct": 0.02
+  }
+ ],
+ "heightSource": [
+  {
+   "h_src": "ml:h",
+   "n": 3373874,
+   "pct": 63.86
+  },
+  {
+   "h_src": "none",
+   "n": 1907846,
+   "pct": 36.11
+  },
+  {
+   "h_src": "osm:building:levels",
+   "n": 1300,
+   "pct": 0.02
+  },
+  {
+   "h_src": "osm:height",
+   "n": 17,
+   "pct": 0.0
+  }
+ ],
+ "size": [
+  {
+   "n": 5283037,
+   "a_p10": 14.1,
+   "a_p50": 33.8,
+   "a_p90": 136.1,
+   "a_p99": 288.1,
+   "h_p50": 5.2,
+   "h_p90": 6.6,
+   "floor_area_km2": 388.22
+  }
+ ],
+ "roundHouses": [
+  {
+   "n": 585412
+  }
+ ],
+ "byRegion": [
+  {
+   "code": "GN-B",
+   "n": 451527,
+   "round_pct": 5.9,
+   "a_p50": 37.3
+  },
+  {
+   "code": "GN-C",
+   "n": 363509,
+   "round_pct": 0.2,
+   "a_p50": 68.7
+  },
+  {
+   "code": "GN-D",
+   "n": 864157,
+   "round_pct": 3.0,
+   "a_p50": 50.2
+  },
+  {
+   "code": "GN-F",
+   "n": 599667,
+   "round_pct": 31.6,
+   "a_p50": 29.0
+  },
+  {
+   "code": "GN-K",
+   "n": 1086672,
+   "round_pct": 18.4,
+   "a_p50": 22.9
+  },
+  {
+   "code": "GN-L",
+   "n": 591355,
+   "round_pct": 7.3,
+   "a_p50": 37.3
+  },
+  {
+   "code": "GN-M",
+   "n": 507204,
+   "round_pct": 11.1,
+   "a_p50": 35.8
+  },
+  {
+   "code": "GN-N",
+   "n": 751304,
+   "round_pct": 4.2,
+   "a_p50": 35.6
+  }
+ ],
+ "enclosures": [
+  {
+   "kind": "enclosure:fence",
+   "n": 946
+  },
+  {
+   "kind": "enclosure:hedge",
+   "n": 52
+  },
+  {
+   "kind": "enclosure:retaining_wall",
+   "n": 2
+  },
+  {
+   "kind": "enclosure:wall",
+   "n": 1358
+  },
+  {
+   "kind": "gate",
+   "n": 195
+  },
+  {
+   "kind": "landuse:residential",
+   "n": 55385
+  }
+ ],
+ "nwCompounds": [
+  {
+   "kind": "government",
+   "n": 74
+  },
+  {
+   "kind": "military",
+   "n": 44
+  },
+  {
+   "kind": "police",
+   "n": 26
+  },
+  {
+   "kind": "site",
+   "n": 2431
+  }
+ ],
+ "nwGates": [
+  {
+   "kind": "entry",
+   "n": 89
+  },
+  {
+   "kind": "gate",
+   "n": 136
+  },
+  {
+   "kind": "lift_gate",
+   "n": 3
+  }
+ ]
+}

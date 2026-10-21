@@ -1,0 +1,267 @@
+{
+ "areas": 17044,
+ "areasInUse": 15822,
+ "compounds": 3808784,
+ "names": 12142,
+ "namesInUse": 11518,
+ "repeatedNames": 2209,
+ "areasSharingAName": 6513,
+ "repeatedAcrossPrefectures": 1137,
+ "fourDigitNames": 12040,
+ "fiveDigitNames": 102,
+ "areasByDigitsOfLastNumber": {
+  "4": 15288,
+  "5": 534
+ },
+ "namesNeedingQualifier": 0,
+ "qualified": [],
+ "plateNames": {
+  "byRule": {
+   "as-is": 14283,
+   "distinctive": 738,
+   "council": 739,
+   "cleaned": 60,
+   "abbreviated": 2
+  },
+  "needsCouncilChoice": 746,
+  "stillOverLimit": 380,
+  "aliases": 1150,
+  "droppedAliases": 6,
+  "needsCouncilChoiceByReason": {
+   "no run of whole words fits 12 characters and 2 words": 364,
+   "every short form drops a qualifier (Koura, Centre, Marché...)": 156,
+   "no clear choice": 81,
+   "a hyphenated name too long to keep whole: the commune chooses": 80,
+   "equals a well-known town elsewhere": 35,
+   "no run of whole words fits 12 characters and 2 words with its number": 15,
+   "a trailing Cité/Village tells sibling quartiers apart": 7,
+   "too short to be a name on its own": 3,
+   "the name left after dropping generic words is too short to stand alone": 2,
+   "a doubled name (\"Boloba Boloba\") is never split": 1,
+   "a doubled name (\"Gassimouya Gassimouya\") is never split": 1,
+   "a doubled name (\"Kélou Kélou\") is never split": 1
+  }
+ },
+ "largestRanges": [
+  {
+   "name": "Kindiadi",
+   "areas": 3,
+   "compounds": 15054,
+   "numbers": 30200,
+   "digits": 5
+  },
+  {
+   "name": "Madina",
+   "areas": 51,
+   "compounds": 13565,
+   "numbers": 28450,
+   "digits": 5
+  },
+  {
+   "name": "Faranah",
+   "areas": 2,
+   "compounds": 13528,
+   "numbers": 27100,
+   "digits": 5
+  },
+  {
+   "name": "Mamou",
+   "areas": 4,
+   "compounds": 13148,
+   "numbers": 26400,
+   "digits": 5
+  },
+  {
+   "name": "Siguiri 2",
+   "areas": 2,
+   "compounds": 13138,
+   "numbers": 26300,
+   "digits": 5
+  },
+  {
+   "name": "Balandougou",
+   "areas": 26,
+   "compounds": 12184,
+   "numbers": 25100,
+   "digits": 5
+  },
+  {
+   "name": "Misira",
+   "areas": 25,
+   "compounds": 11961,
+   "numbers": 24400,
+   "digits": 5
+  },
+  {
+   "name": "Lola",
+   "areas": 1,
+   "compounds": 12127,
+   "numbers": 24300,
+   "digits": 5
+  },
+  {
+   "name": "Bentroya",
+   "areas": 1,
+   "compounds": 11848,
+   "numbers": 23700,
+   "digits": 5
+  },
+  {
+   "name": "Siguiri 1",
+   "areas": 2,
+   "compounds": 11721,
+   "numbers": 23500,
+   "digits": 5
+  },
+  {
+   "name": "Sangarédi",
+   "areas": 2,
+   "compounds": 11617,
+   "numbers": 23250,
+   "digits": 5
+  },
+  {
+   "name": "Fria",
+   "areas": 2,
+   "compounds": 11503,
+   "numbers": 23050,
+   "digits": 5
+  }
+ ],
+ "mostAreasPerName": [
+  {
+   "name": "Madina",
+   "areas": 51,
+   "compounds": 13565,
+   "digits": 5
+  },
+  {
+   "name": "Hafia",
+   "areas": 30,
+   "compounds": 7027,
+   "digits": 5
+  },
+  {
+   "name": "Hamdalaye",
+   "areas": 30,
+   "compounds": 5358,
+   "digits": 5
+  },
+  {
+   "name": "Tanene",
+   "areas": 29,
+   "compounds": 10386,
+   "digits": 5
+  },
+  {
+   "name": "Balandougou",
+   "areas": 26,
+   "compounds": 12184,
+   "digits": 5
+  },
+  {
+   "name": "Misira",
+   "areas": 25,
+   "compounds": 11961,
+   "digits": 5
+  },
+  {
+   "name": "Bousoura",
+   "areas": 24,
+   "compounds": 4361,
+   "digits": 5
+  },
+  {
+   "name": "Fadougou",
+   "areas": 21,
+   "compounds": 3588,
+   "digits": 4
+  },
+  {
+   "name": "Koba",
+   "areas": 18,
+   "compounds": 5289,
+   "digits": 5
+  },
+  {
+   "name": "Bendougou",
+   "areas": 16,
+   "compounds": 3212,
+   "digits": 4
+  },
+  {
+   "name": "Dar Es Salam",
+   "areas": 16,
+   "compounds": 6694,
+   "digits": 5
+  },
+  {
+   "name": "Dara",
+   "areas": 16,
+   "compounds": 2578,
+   "digits": 4
+  }
+ ],
+ "biggestAreas": [
+  {
+   "name": "Faranah",
+   "label": "Faranah",
+   "compounds": 13423
+  },
+  {
+   "name": "Kindiadi",
+   "label": "Dubréka",
+   "compounds": 13285
+  },
+  {
+   "name": "Mamou",
+   "label": "Mamou",
+   "compounds": 12920
+  },
+  {
+   "name": "Siguiri 2",
+   "label": "Siguiri",
+   "compounds": 12818
+  },
+  {
+   "name": "Lola",
+   "label": "Lola",
+   "compounds": 12127
+  },
+  {
+   "name": "Bentroya",
+   "label": "Coyah",
+   "compounds": 11848
+  },
+  {
+   "name": "Sangarédi",
+   "label": "Boké",
+   "compounds": 11599
+  },
+  {
+   "name": "Fria",
+   "label": "Fria",
+   "compounds": 11266
+  },
+  {
+   "name": "Siguiri 1",
+   "label": "Siguiri",
+   "compounds": 11231
+  },
+  {
+   "name": "Manéah",
+   "label": "Coyah",
+   "compounds": 11062
+  },
+  {
+   "name": "Bordo",
+   "label": "Kankan",
+   "compounds": 11057
+  },
+  {
+   "name": "Koundara",
+   "label": "Koundara",
+   "compounds": 10135
+  }
+ ]
+}

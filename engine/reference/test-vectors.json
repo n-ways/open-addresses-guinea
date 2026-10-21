@@ -1,0 +1,247 @@
+{
+ "note": "Spot codes for real places (coordinates from N-Ways places: OpenStreetMap, Overture). Computed with the frozen model/frames.json; every implementation must reproduce them.",
+ "spot": [
+  {
+   "name": "CHU de Donka, Conakry (OSM)",
+   "lat": 9.536912,
+   "lon": -13.682651,
+   "frame": 0,
+   "code": "0 22FQ V835",
+   "bloc": "0 22FQ"
+  },
+  {
+   "name": "Gouvernorat de la ville de Conakry",
+   "lat": 9.509601,
+   "lon": -13.710406,
+   "frame": 0,
+   "code": "0 229J 8QP9",
+   "bloc": "0 229J"
+  },
+  {
+   "name": "Gare routière de Bambeto, Conakry (OSM)",
+   "lat": 9.586665,
+   "lon": -13.631229,
+   "frame": 0,
+   "code": "0 23P2 C2Q7",
+   "bloc": "0 23P2"
+  },
+  {
+   "name": "Gare routière Boffa (OSM)",
+   "lat": 10.189842,
+   "lon": -14.040823,
+   "frame": 1,
+   "code": "1 7883 W467",
+   "bloc": "1 7883"
+  },
+  {
+   "name": "Gare routière Mamou (OSM)",
+   "lat": 10.372771,
+   "lon": -12.087075,
+   "frame": 2,
+   "code": "2 4684 85WP",
+   "bloc": "2 4684"
+  },
+  {
+   "name": "Grande Mosquée de Dalein centre, Labé (OSM)",
+   "lat": 11.516356,
+   "lon": -12.306513,
+   "frame": 2,
+   "code": "2 95H4 Q667",
+   "bloc": "2 95H4"
+  },
+  {
+   "name": "Gare routière de Koubia (OSM)",
+   "lat": 11.587068,
+   "lon": -11.89114,
+   "frame": 2,
+   "code": "2 97W2 72HC",
+   "bloc": "2 97W2"
+  },
+  {
+   "name": "Gouvernorat région administrative de Kankan",
+   "lat": 10.371422,
+   "lon": -9.333582,
+   "frame": 3,
+   "code": "3 CG88 2PXF",
+   "bloc": "3 CG88"
+  },
+  {
+   "name": "Gare routière de Kissidougou (OSM)",
+   "lat": 9.192916,
+   "lon": -10.100205,
+   "frame": 3,
+   "code": "3 48VR CQ9X",
+   "bloc": "3 48VR"
+  },
+  {
+   "name": "Gare routière de Lola (OSM)",
+   "lat": 7.806447,
+   "lon": -8.540453,
+   "frame": 4,
+   "code": "4 4FRX R47C",
+   "bloc": "4 4FRX"
+  },
+  {
+   "name": "Gare routière de Diecké (OSM)",
+   "lat": 7.349064,
+   "lon": -8.944582,
+   "frame": 4,
+   "code": "4 2CP4 M26H",
+   "bloc": "4 2CP4"
+  }
+ ],
+ "home": [
+  {
+   "code": "Hafia 3 · 1230",
+   "name": "Hafia 3, Dixinn (Conakry)",
+   "area": "osm:relation/5582738",
+   "plate": "HAFIA 3 · 1230",
+   "machine": "GN-04261-1230-8",
+   "spoken": "Hafia 3, douze trente"
+  },
+  {
+   "code": "Hafia 3 12 30",
+   "name": "the same, said in pairs",
+   "area": "osm:relation/5582738",
+   "plate": "HAFIA 3 · 1230",
+   "machine": "GN-04261-1230-8",
+   "spoken": "Hafia 3, douze trente"
+  },
+  {
+   "code": "Camayenne 2936",
+   "name": "near the CHU de Donka",
+   "area": "osm:relation/5582729",
+   "plate": "CAMAYENNE · 2936",
+   "machine": "GN-01596-2936-5",
+   "spoken": "Camayenne, vingt-neuf trente-six"
+  },
+  {
+   "code": "Almamiya 1939",
+   "name": "Kaloum: official street Avenue Dinah Salifou first",
+   "area": "osm:node/5551459713",
+   "plate": "ALMAMIYA · 1939",
+   "machine": "GN-00053-1939-4",
+   "spoken": "Almamiya, dix-neuf trente-neuf"
+  },
+  {
+   "code": "Tata 1 · 7552",
+   "name": "Dalein, Labé",
+   "area": "osm:relation/7657182",
+   "plate": "TATA 1 · 7552",
+   "machine": "GN-10762-7552-3",
+   "spoken": "Tata 1, soixante-quinze cinquante-deux"
+  },
+  {
+   "code": "Farako 2 · 3494",
+   "name": "Kankan",
+   "area": "osm:relation/7682892",
+   "plate": "FARAKO 2 · 3494",
+   "machine": "GN-03084-3494-8",
+   "spoken": "Farako 2, trente-quatre quatre-vingt-quatorze"
+  },
+  {
+   "code": "Koléyeba 2377",
+   "name": "Nzérékoré",
+   "area": "osm:relation/5579265",
+   "plate": "KOLÉYEBA · 2377",
+   "machine": "GN-05899-2377-6",
+   "spoken": "Koléyeba, vingt-trois soixante-dix-sept"
+  },
+  {
+   "code": "Energie 4058",
+   "name": "Siguiri",
+   "area": "osm:relation/9313703",
+   "plate": "ENERGIE · 4058",
+   "machine": "GN-02868-4058-9",
+   "spoken": "Energie, quarante cinquante-huit"
+  },
+  {
+   "code": "Faranah 16351",
+   "name": "Faranah (5 digits)",
+   "area": "osm:node/1717489366",
+   "plate": "FARANAH · 16351",
+   "machine": "GN-03103-16351-3",
+   "spoken": "Faranah, un, soixante-trois cinquante et un"
+  },
+  {
+   "code": "Linsan 5389",
+   "name": "Linsan, préfecture of Kindia",
+   "area": "osm:node/1750704667",
+   "plate": "LINSAN · 5389",
+   "machine": "GN-07134-5389-6",
+   "spoken": "Linsan, cinquante-trois quatre-vingt-neuf"
+  },
+  {
+   "code": "Linsan 7031",
+   "name": "Linsan, préfecture of Lélouma",
+   "area": "geonames:2418118",
+   "plate": "LINSAN · 7031",
+   "machine": "GN-07134-7031-6",
+   "spoken": "Linsan, soixante-dix trente et un"
+  },
+  {
+   "code": "Missidé Bhoundou Kalouma 1260",
+   "name": "official name typed in full -> plate name Kalouma",
+   "area": "osm:node/5402630185",
+   "plate": "KALOUMA · 1260",
+   "machine": "GN-04730-1260-1",
+   "spoken": "Kalouma, douze soixante"
+  },
+  {
+   "code": "Kalouma 1260",
+   "name": "Kalouma, Télimélé",
+   "area": "osm:node/5402630185",
+   "plate": "KALOUMA · 1260",
+   "machine": "GN-04730-1260-1",
+   "spoken": "Kalouma, douze soixante"
+  },
+  {
+   "code": "Kalouma 1334",
+   "name": "another Kalouma, Mali préfecture",
+   "area": "osm:node/5195158576",
+   "plate": "KALOUMA · 1334",
+   "machine": "GN-04730-1334-6",
+   "spoken": "Kalouma, treize trente-quatre"
+  },
+  {
+   "code": "HAFIA 3 · 1230-8",
+   "name": "plate form with its check digit",
+   "area": "osm:relation/5582738",
+   "plate": "HAFIA 3 · 1230",
+   "machine": "GN-04261-1230-8",
+   "spoken": "Hafia 3, douze trente"
+  }
+ ],
+ "rejects": [
+  "0 22GQ V835-V",
+  "0 22FV Q835-V",
+  "5 Q7M3 9CXH-F",
+  "0 Q7M3 9CX0-F"
+ ],
+ "homeRejects": [
+  "HAFIA 3 · 1203-8",
+  "Linsan 9999",
+  "Nowhere Land 1234",
+  "Madina Tossokere 2499",
+  "Hafia 3 · 2300"
+ ],
+ "homeNote": "Home codes decode nationally from the frozen name registry (model/names.json, issued 20 October 2026): no frame, commune or préfecture needed. The remembered name is the plate name (at most 12 characters and 2 words); the official name, where it differs, decodes too.",
+ "plateNames": {
+  "fit": [
+   "Hafia 3",
+   "Kaloum",
+   "Dar es Salam",
+   "Kalouma",
+   "Tossokere",
+   "Kélou Kélou",
+   "Dixinn 2"
+  ],
+  "over": [
+   "Missidé Bhoundou Kalouma",
+   "Madina Kagneguiri 2",
+   "Siguiri Koura 2",
+   "Noumouridougou",
+   "Hafia 3 Minière"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "byFrame": {
+    "CKY": 5646
+  },
+  "codes": 5646,
+  "country": "GN",
+  "credit": "N-Ways Addressing for Guinea, © N-WAYS LIMITED (nways.ng)",
+  "engine": "internal/addressing/gn (SPEC v1.0)",
+  "exported": "2026-10-21T18:50:00Z",
+  "licence": "ODbL 1.0 (LICENSE-DATA)",
+  "sha256": {
+    "CKY.csv": "b5f84ba5a016102dabf4116f5980bc38e3dd218750ce322a38d4c002ab4599b1",
+    "areas.csv": "6ab59870b2240b8744f24b41c6af789d4808f06dfe3c9be147df1e4976dfbda7"
+  }
+}

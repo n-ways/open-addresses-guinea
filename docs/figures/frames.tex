@@ -1,0 +1,33 @@
+% The five frames (postal regions) and the density of issued codes, from frames-outline.dat and frames-density.dat.
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold]
+\usepackage{unicode-math}\setmathfont{LibertinusMath-Regular.otf}
+\usepackage{pgfplots}\pgfplotsset{compat=1.18}
+\providecommand{\T}[2]{#1}% \T{English}{French}; the -fr wrappers select the French text
+\pgfkeys{/pgf/number format/.cd, 1000 sep={\,}}\ifdefined\figfr\pgfkeys{/pgf/number format/use comma}\fi
+\begin{document}
+\begin{tikzpicture}[lab/.style={font=\small\bfseries, align=center, fill=white, fill opacity=0.88, text opacity=1, rounded corners=1pt, inner sep=2pt}]
+\begin{axis}[x=1.45cm, y=1.475cm, xmin=-15.25, xmax=-7.55, ymin=7.1, ymax=12.75,
+  axis lines=box, axis line style={gray!60}, tick style={gray!60}, tick label style={font=\scriptsize, text=black!70},
+  xtick={-15,-14,...,-8}, ytick={8,9,...,12},
+  xticklabel={\pgfmathparse{-\tick}\pgfmathprintnumber{\pgfmathresult}°\T{W}{O}},
+  yticklabel={\pgfmathprintnumber{\tick}°N},
+  colormap={seq}{rgb255=(205,226,251) rgb255=(109,167,236) rgb255=(42,120,214) rgb255=(16,66,129) rgb255=(13,54,107)},
+  point meta min=0, point meta max=4.2,
+  colorbar horizontal, colorbar style={at={(0.02,0.11)}, anchor=south west, width=4.2cm, height=0.22cm,
+    xtick={0,1,2,3,4}, xticklabels={1,10,100,1\,000,10\,000}, xticklabel style={font=\scriptsize},
+    xlabel={\T{codes per $0.1^\circ$ cell}{codes par maille de $0{,}1^\circ$}}, xlabel style={font=\scriptsize, yshift=1mm}},
+  unbounded coords=jump, clip=false, set layers]
+\addplot[scatter, point meta=explicit, only marks, mark=square*, mark size=2.05pt, scatter/use mapped color={draw=mapped color, fill=mapped color}]
+  table[x=lon, y=lat, meta=log10n] {frames-density.dat};
+\addplot[white, line width=1.1pt, no marks, on layer=axis foreground] table[x=lon, y=lat] {frames-outline.dat};
+\begin{pgfonlayer}{axis foreground}
+\node[lab] at (axis cs:-14.05,11.15) {1\\[-1pt]\footnotesize Basse-Guinée};
+\node[lab] at (axis cs:-12.15,11.9) {2\\[-1pt]\footnotesize Moyenne-Guinée};
+\node[lab] at (axis cs:-9.85,10.85) {3\\[-1pt]\footnotesize Haute-Guinée};
+\node[lab] at (axis cs:-9.25,8.0) {4\\[-1pt]\footnotesize Guinée forestière};
+\draw[black!80, line width=0.6pt] (axis cs:-13.72,9.52) -- (axis cs:-14.35,8.95) node[lab, anchor=north] {0\\[-1pt]\footnotesize Conakry};
+\end{pgfonlayer}
+\end{axis}
+\end{tikzpicture}
+\end{document}

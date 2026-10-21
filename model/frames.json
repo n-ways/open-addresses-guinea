@@ -1,0 +1,139 @@
+{
+ "country": "GN",
+ "version": "2026-10-18",
+ "frozen": false,
+ "cellMetres": 3.0,
+ "blocMetres": 1200,
+ "carreMetres": 60,
+ "note": "Frozen once the first code is issued. Digit = first digit of the UPU postal radical (001 BP Conakry, 100 BP Kindia, 200 BP Labé ...).",
+ "frames": [
+  {
+   "digit": 0,
+   "name": "Conakry",
+   "nameEn": "Conakry",
+   "regions2026": [
+    "GN-C"
+   ],
+   "west": -13.85,
+   "south": 9.43,
+   "refLat": 9.59,
+   "box": [
+    -13.8403,
+    9.4322,
+    -13.4738,
+    9.7534
+   ],
+   "extentKm": [
+    41.3,
+    35.8
+   ],
+   "blocsUsed": [
+    35,
+    30
+   ]
+  },
+  {
+   "digit": 1,
+   "name": "Basse-Guinée",
+   "nameEn": "Lower Guinea",
+   "regions2026": [
+    "GN-B",
+    "GN-D"
+   ],
+   "west": -15.37,
+   "south": 9.03,
+   "refLat": 10.85,
+   "box": [
+    -15.3667,
+    9.0341,
+    -12.1101,
+    12.6756
+   ],
+   "extentKm": [
+    356.4,
+    403.2
+   ],
+   "blocsUsed": [
+    298,
+    337
+   ]
+  },
+  {
+   "digit": 2,
+   "name": "Moyenne-Guinée",
+   "nameEn": "Middle Guinea (Fouta Djallon)",
+   "regions2026": [
+    "GN-L",
+    "GN-M"
+   ],
+   "west": -12.99,
+   "south": 9.87,
+   "refLat": 11.16,
+   "box": [
+    -12.9821,
+    9.8723,
+    -11.0508,
+    12.4526
+   ],
+   "extentKm": [
+    211.8,
+    285.6
+   ],
+   "blocsUsed": [
+    177,
+    239
+   ]
+  },
+  {
+   "digit": 3,
+   "name": "Haute-Guinée",
+   "nameEn": "Upper Guinea",
+   "regions2026": [
+    "GN-K",
+    "GN-F"
+   ],
+   "west": -11.6,
+   "south": 8.57,
+   "refLat": 10.54,
+   "box": [
+    -11.5996,
+    8.5721,
+    -7.9451,
+    12.5062
+   ],
+   "extentKm": [
+    400.0,
+    435.3
+   ],
+   "blocsUsed": [
+    334,
+    363
+   ]
+  },
+  {
+   "digit": 4,
+   "name": "Guinée forestière",
+   "nameEn": "Forest Guinea",
+   "regions2026": [
+    "GN-N"
+   ],
+   "west": -10.71,
+   "south": 7.19,
+   "refLat": 8.39,
+   "box": [
+    -10.7019,
+    7.1906,
+    -7.6379,
+    9.5855
+   ],
+   "extentKm": [
+    338.3,
+    264.9
+   ],
+   "blocsUsed": [
+    282,
+    221
+   ]
+  }
+ ]
+}

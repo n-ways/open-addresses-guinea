@@ -1,0 +1,24 @@
+% Hafia 3 (Dixinn, Conakry): its 645 compounds coloured by number, joined in number order, from hafia3.dat.
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold]
+\usepackage{unicode-math}\setmathfont{LibertinusMath-Regular.otf}
+\usepackage{pgfplots}\pgfplotsset{compat=1.18}
+\providecommand{\T}[2]{#1}% \T{English}{French}; the -fr wrappers select the French text
+\pgfkeys{/pgf/number format/.cd, 1000 sep={\,}}\ifdefined\figfr\pgfkeys{/pgf/number format/use comma}\fi
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[x=0.016cm, y=0.016cm, xmin=-250, xmax=270, ymin=-350, ymax=300,
+  axis lines=box, axis line style={gray!60}, tick style={gray!60}, tick label style={font=\scriptsize, text=black!70},
+  xlabel={\T{metres east}{mètres vers l'est}}, ylabel={\T{metres north}{mètres vers le nord}}, label style={font=\small},
+  colormap={seq}{rgb255=(205,226,251) rgb255=(109,167,236) rgb255=(42,120,214) rgb255=(16,66,129) rgb255=(13,54,107)},
+  point meta min=1000, point meta max=2300,
+  colorbar, colorbar style={width=0.25cm, ytick={1000,1300,1600,1900,2299}, yticklabel style={font=\scriptsize},
+    ylabel={\T{number}{numéro}}, ylabel style={font=\small}}]
+\addplot[gray!45, line width=0.3pt, no marks] table[x=x, y=y] {hafia3.dat};
+\addplot[scatter, point meta=explicit, only marks, mark=*, mark size=1.5pt, scatter/use mapped color={draw=white, line width=0.2pt, fill=mapped color}]
+  table[x=x, y=y, meta=number] {hafia3.dat};
+\addplot[only marks, mark=o, mark size=4pt, black, thick] coordinates {(-23.3,-74.4)};
+\node[anchor=west, font=\scriptsize, fill=white, fill opacity=0.85, text opacity=1, inner sep=1.5pt] at (axis cs:-12,-100) {Hafia 3 $\cdot$ 1230};
+\end{axis}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,202 @@
+[
+  {
+    "key": "BO",
+    "iso": "GN-B",
+    "name": "Boké Region",
+    "nameFr": "Région de Boké",
+    "nameLocal": "Boké",
+    "wikidata": "Q862611",
+    "areaKm2": 34540.3,
+    "box": [
+      -15.36672,
+      9.80887,
+      -12.5685,
+      12.67563
+    ],
+    "buildings": {
+      "openstreetmap": 117399,
+      "ml": 334128,
+      "total": 451527
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "CO",
+    "iso": "GN-C",
+    "name": "Conakry",
+    "nameFr": "Conakry",
+    "nameLocal": "Conakry",
+    "wikidata": "Q3733",
+    "areaKm2": 338.5,
+    "box": [
+      -13.84029,
+      9.43219,
+      -13.47382,
+      9.75337
+    ],
+    "buildings": {
+      "openstreetmap": 276037,
+      "ml": 87472,
+      "total": 363509
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 5
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "KI",
+    "iso": "GN-D",
+    "name": "Kindia Region",
+    "nameFr": "Région de Kindia",
+    "nameLocal": "Kindia",
+    "wikidata": "Q868520",
+    "areaKm2": 26218.8,
+    "box": [
+      -14.01236,
+      9.03411,
+      -12.11009,
+      11.38009
+    ],
+    "buildings": {
+      "openstreetmap": 309033,
+      "ml": 555124,
+      "total": 864157
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "FA",
+    "iso": "GN-F",
+    "name": "Faranah Region",
+    "nameFr": "Région de Faranah",
+    "nameLocal": "Faranah",
+    "wikidata": "Q870166",
+    "areaKm2": 40651.3,
+    "box": [
+      -11.59959,
+      8.57209,
+      -8.7003,
+      12.23174
+    ],
+    "buildings": {
+      "openstreetmap": 284769,
+      "ml": 314898,
+      "total": 599667
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "KA",
+    "iso": "GN-K",
+    "name": "Kankan Region",
+    "nameFr": "Région de Kankan",
+    "nameLocal": "Kankan",
+    "wikidata": "Q870191",
+    "areaKm2": 70405.1,
+    "box": [
+      -10.8924,
+      8.84164,
+      -7.94509,
+      12.50624
+    ],
+    "buildings": {
+      "openstreetmap": 305635,
+      "ml": 781037,
+      "total": 1086672
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "LA",
+    "iso": "GN-L",
+    "name": "Labé Region",
+    "nameFr": "Région de Labé",
+    "nameLocal": "Labé",
+    "wikidata": "Q868515",
+    "areaKm2": 22754.8,
+    "box": [
+      -12.98209,
+      10.98918,
+      -11.05082,
+      12.45264
+    ],
+    "buildings": {
+      "openstreetmap": 141236,
+      "ml": 450119,
+      "total": 591355
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "MA",
+    "iso": "GN-M",
+    "name": "Mamou Region",
+    "nameFr": "Région de Mamou",
+    "nameLocal": "Mamou",
+    "wikidata": "Q1043650",
+    "areaKm2": 16358.1,
+    "box": [
+      -12.97428,
+      9.87227,
+      -11.36005,
+      11.33309
+    ],
+    "buildings": {
+      "openstreetmap": 149505,
+      "ml": 357699,
+      "total": 507204
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "NZ",
+    "iso": "GN-N",
+    "name": "Nzérékoré Region",
+    "nameFr": "Région de Nzérékoré",
+    "nameLocal": "Nzérékoré",
+    "wikidata": "Q870146",
+    "areaKm2": 34361.3,
+    "box": [
+      -10.70186,
+      7.1906,
+      -7.63792,
+      9.5855
+    ],
+    "buildings": {
+      "openstreetmap": 287386,
+      "ml": 463918,
+      "total": 751304
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  }
+]

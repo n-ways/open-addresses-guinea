@@ -1,0 +1,27 @@
+% Building footprints by source and the share of round houses, per frame, from footprints.dat.
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold]
+\usepackage{pgfplots}\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{groupplots}
+\definecolor{osm}{HTML}{2A78D6}\definecolor{ml}{HTML}{EB6834}\definecolor{rnd}{HTML}{1BAF7A}
+\providecommand{\T}[2]{#1}% \T{English}{French}; the -fr wrappers select the French text
+\pgfkeys{/pgf/number format/.cd, 1000 sep={\,}}\ifdefined\figfr\pgfkeys{/pgf/number format/use comma}\pgfplotsset{every node near coord/.append style={/pgf/number format/use comma}}\fi
+\begin{document}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1, horizontal sep=0.6cm, yticklabels at=edge left},
+  height=5.6cm, y dir=reverse, ytick={0,1,2,3,4}, ymin=-0.6, ymax=4.6,
+  yticklabels={0 Conakry, 1 Basse-Guinée, 2 Moyenne-Guinée, 3 Haute-Guinée, 4 Guinée forestière},
+  axis lines=left, axis line style={gray!60}, tick style={gray!60}, tick label style={font=\scriptsize, text=black!70},
+  xmajorgrids, grid style={gray!20}, label style={font=\small}, title style={font=\small\bfseries}]
+\nextgroupplot[width=8.4cm, xbar stacked, bar width=9pt, xmin=0, xmax=1.8, title={\T{Footprints (millions)}{Empreintes (millions)}},
+  legend style={at={(0.98,0.98)}, anchor=north east, font=\scriptsize, draw=gray!40}, legend cell align=left]
+\addplot[fill=osm, draw=white, line width=0.8pt] table[y=frame, x=osm] {footprints.dat};
+\addplot[fill=ml, draw=white, line width=0.8pt] table[y=frame, x=ml] {footprints.dat};
+\legend{OpenStreetMap, \T{Google and Microsoft (via Overture)}{Google et Microsoft (via Overture)}}
+\nextgroupplot[width=5.6cm, xbar, bar width=9pt, xmin=0, xmax=28, title={\T{Round houses (\% of footprints)}{Cases rondes (\% des empreintes)}},
+  nodes near coords={\pgfmathprintnumber{\pgfplotspointmeta}}, nodes near coords style={font=\scriptsize, text=black!80},
+  point meta=x]
+\addplot[fill=rnd, draw=white, line width=0.8pt] table[y=frame, x=roundpct] {footprints.dat};
+\end{groupplot}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local settings
+.env
+.env.*
+*.key
+*.pem
+
+# Databases and working files
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite.importing
+*.db
+*.duckdb
+/data/
+/exported/
+
+# Paper build output
+docs/paper/build/
+*.aux
+*.log
+*.out
+*.toc
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

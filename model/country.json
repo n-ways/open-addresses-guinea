@@ -1,0 +1,111 @@
+{
+  "country": "GN",
+  "name": "Guinea",
+  "languages": [
+    "fr"
+  ],
+  "alphabet": "23456789CFGHJMPQRVWX",
+  "cellMetres": 3.0,
+  "buildingHeadroom": 2.0,
+  "regionLevel": "first-level division (ISO 3166-2), as in the N-Ways regions table",
+  "regions": 8,
+  "buildings": 5215395,
+  "spotCodeLengths": [
+    6,
+    8
+  ],
+  "buildingCodeLengths": [
+    5
+  ],
+  "regionsToSubdivide": [
+    "GN-B",
+    "GN-D",
+    "GN-F",
+    "GN-K",
+    "GN-L",
+    "GN-M",
+    "GN-N"
+  ],
+  "spoken": {
+    "fr": {
+      "2": "deux",
+      "3": "trois",
+      "4": "quatre",
+      "5": "cinq",
+      "6": "six",
+      "7": "sept",
+      "8": "huit",
+      "9": "neuf",
+      "C": "cé",
+      "F": "effe",
+      "G": "gé",
+      "H": "ache",
+      "J": "ji",
+      "M": "emme",
+      "P": "pé",
+      "Q": "ku",
+      "R": "erre",
+      "V": "vé",
+      "W": "double vé",
+      "X": "ixe"
+    }
+  },
+  "existing": {
+    "system": "None in practical use. No national postcode or street-address system exists. The postal operator Poste GN SA (La Poste Guinéenne) uses P.O. boxes; its own address is written 'Almamya 8è Avenue 4è Boulevard, Commune Kaloum 001BP2984' (neighbourhood, avenue/boulevard, commune, then a BP number). Conakry has some numbered avenues and streets (Kaloum) but most addresses are given by quartier and landmark.",
+    "status": "Checked 2026-10-17: no digital addressing or postcode project found on the MATD, ARPT or La Poste sites. The ARPT tendered in Aug 2025 for 'États généraux du secteur des postes', which may lead to reform. Web-search quota ran out before a press search for 'adressage Conakry' 2025-2026 could be finished (one search found nothing).",
+    "openData": "No open national address register. OSM has few address tags (see osm).",
+    "openAlgorithm": "Open Location Code (Plus Codes) is open (Apache-2.0) and works offline.",
+    "terms": "No Guinean address dataset with a reuse licence found.",
+    "recommendation": "Use latitude/longitude plus Plus Codes (nways.ng/p/<code>) with OSM names and quartier + landmark descriptions ('Kaloum, Conakry · près de la BCRG'). Accept 'BP' numbers as text only.",
+    "sources": [
+      {
+        "url": "https://www.laposte.gn/",
+        "kind": "official",
+        "note": "Poste GN SA: P.O. boxes (individual 250,000 GNF/yr + 500,000 at opening; company 1,200,000/yr + 1,200,000), paid via Orange Money; footer address format; '© 2022'"
+      },
+      {
+        "url": "https://www.arpt.gov.gn/dossier-dappel-doffre-dao-n002-arpt-dtep-2025-recrutement-dun-cabinet-pour-la-realisation-des-etats-generaux-du-secteur-des-postes-en-republique-de-guinee/",
+        "kind": "official",
+        "note": "ARPT tender 29 Aug 2025: États généraux of the postal sector"
+      },
+      {
+        "url": "https://matd.gov.gn/",
+        "kind": "official",
+        "note": "No addressing project on the MATD homepage (checked 2026-10-17)"
+      },
+      {
+        "url": "https://github.com/google/open-location-code",
+        "kind": "other",
+        "note": "Open Location Code, Apache-2.0"
+      },
+      {
+        "url": "https://overpass-api.de/api/interpreter",
+        "kind": "osm",
+        "note": "Overpass counts, 2026-10-17"
+      }
+    ],
+    "lastChecked": "2026-10-17",
+    "findings": [
+      {
+        "name": "Poste GN SA (La Poste Guinéenne)",
+        "state": "P.O. boxes only",
+        "format": "'001BP2984' / 'BP 2984 Conakry'",
+        "openData": "none",
+        "inOSM": false
+      }
+    ],
+    "osm": {
+      "checked": "2026-10-17",
+      "addrHousenumber": 457,
+      "addrStreet": 637,
+      "addrPostcode": 422,
+      "note": "Too sparse for house-level geocoding; addr:postcode values cannot be real postcodes (none exist) and are probably BP numbers or imports.",
+      "query": "[out:json][timeout:200];area[\"ISO3166-1\"=\"GN\"][admin_level=2]->.a;nwr[\"addr:housenumber\"](area.a);out count;"
+    }
+  },
+  "sources": {
+    "regions": "N-Ways regions (OpenStreetMap administrative boundaries, ODbL)",
+    "buildings": "OpenStreetMap (ODbL); Google Open Buildings (CC BY 4.0) and Microsoft building footprints (ODbL) via Overture Maps",
+    "existing": "N-Ways country research, backend/countries/gn.json"
+  }
+}

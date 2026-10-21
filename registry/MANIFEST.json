@@ -1,0 +1,23 @@
+{
+  "byFrame": {
+    "BAS": 1003774,
+    "CKY": 258080,
+    "FOR": 540311,
+    "HAU": 1195252,
+    "MOY": 811367
+  },
+  "codes": 3808784,
+  "country": "GN",
+  "credit": "N-Ways Addressing for Guinea, © N-WAYS LIMITED (nways.ng)",
+  "engine": "internal/addressing/gn (SPEC v1.0)",
+  "exported": "2026-10-21T18:50:00Z",
+  "licence": "ODbL 1.0 (LICENSE-DATA)",
+  "sha256": {
+    "BAS.csv": "1bccedde31efee13a4dd5688d8dfd9305be2baed4d57c6848cfba291cb2ac4a2",
+    "CKY.csv": "001c1f000efadf946e605fad15da24bc362a5f3185eb68896ad0547cf3ed9eb0",
+    "FOR.csv": "908cbf1ba863601633218cce0dbcb5d607dacc5c5f6fd154dd735815c37f8508",
+    "HAU.csv": "b07a2fff6f03adaa4646bbb954e52d44d62871ae3a38b7ecbf5fa49f858354aa",
+    "MOY.csv": "122c428194aead3d97b3f0e5184268c03abfa6965ae5de5e3bb37daedf403a91",
+    "areas.csv": "6ab59870b2240b8744f24b41c6af789d4808f06dfe3c9be147df1e4976dfbda7"
+  }
+}
